@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>圆桌论坛：生命观与表象世界-中国社会科学网</title>
+    <meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="Keywords" content="圆桌论坛;生命观;表象世界" />
+<meta name="description" content="圆桌论坛：生命观与表象世界" />
+<meta name="baidu-site-verification" content="d2eTvy3SqO" />
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="134801">
+<meta name="contentid" content="5619289">
+<meta name="publishdate" content="2023-04-11">
+<meta name="author" content="陈静">
+<meta name="source" content="《国际社会科学杂志》（中文版）2022年第4期">
+    <script type="text/javascript" src="../../../../images/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="../../../../images/sk_pc_mobile_v2022.js"></script>
+
+    <link class="stylefile" rel="stylesheet" href="../../../../images/sk_nav0_base_pc.css">
+    <link class="stylefile" rel="stylesheet" href="../../../../images/sk_all_pc.css">
+
+    <link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../../images/sk_base_mobile.css" />
+    <link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../../images/sk_all_mobile.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../images/idangerous.swiper2.7.6.css">
+    <script type="text/javascript" src="../../../../images/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../images/idangerous.swiper2.7.6.min.js"></script>
+    <script type="text/javascript" src="../../../../images/jquery.qrcode.min.js"></script>
+    <!--[if IE 9]>
+    <script type="text/javascript" src="../../../../images/placeholder.js"></script>
+    <![endif]-->
+    <script>
+        var isPC = IsPC();//获取是否为PC端
+        if (isPC) {//如果是PC端加载PC的js和css
+            $(".mobileStyle").remove();
+            dynamicLoadJs('../../../../images/sk_nav0_base_pc.js')
+        } else {//如果是移动端加载移动端的js和css
+            if (window.sessionStorage.getItem("isPc") == "true") {
+                var oMeta = document.createElement('meta');
+                oMeta.content = '';
+                oMeta.name = 'viewport';
+                document.getElementsByTagName('head')[0].appendChild(oMeta);
+                $(".mobileStyle").remove();
+                dynamicLoadJs('../../../../images/sk_nav0_base_pc.js')
+                $(function () {
+                    $(".AppBtn").css('display', 'block');
+                    $(".nav_wrap").addClass("AppBtnBox");
+                })
+            } else {
+                $(".stylefile").remove();
+                dynamicLoadJs('../../../../images/sk_base_mobile.js')
+                $(function () {
+                    $("html,body").animate({scrollTop: 0}, 100);
+                })
+            }
+            $(function () {
+                //切换pc移动
+                $(".PcBtn").click(function () {
+                    window.sessionStorage.setItem("isPc", "true")
+                    window.location.reload()
+                })
+                $(".AppBtn").click(function () {
+                    window.sessionStorage.setItem("isPc", "false")
+                    window.location.reload()
+                })
+                $(".AppBtn2").click(function () {
+                    window.sessionStorage.setItem("isPc", "false")
+                    window.location.reload()
+                })
+            })
+        }
+    </script>
+</head>
+<body>
+<!-- 嵌套头部开始 -->
+<script>
+    // Quick Tracking 阿里sdk引入
+    (function(w, d, s, q) { 
+        w[q] =w[q] || []; 
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s); 
+        j.async=true; 
+        j.id='beacon-aplus'; 
+        j.src='https://d.alicdn.com/alilog/mlog/aplus/204201353.js'; 
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'aplus_queue');
+
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['appKey', 'qwfmf7ygk8c6a37if0oq266o']  }) 
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['aplus-rhost-v', 'quickaplus-server-api-cn-zhangjiakou.aliyuncs.com']  });
+
+
+
+    $(function() {
+        $('.search_input').on('keyup', function(e) {
+            if (e.keyCode == 13) {
+                gbkSub($(this))
+            } else {
+                $('.search_input').val( $(this).val() )
+            }
+        })
+        $('.search_btn').on('click', function(e) {
+            gbkSub($(this))
+        })
+
+        function gbkSub(obj) {
+            var val = encodeURIComponent($.trim ( obj.parent().find('.search_input').eq(0).val()) )
+            
+            // 埋点搜索
+            aplus_queue.push({
+                'action':'aplus.record',
+                'arguments':['search_click', 'CLK', {
+                    search_key: val,
+                    current_page_name: $('title').text(),
+                    page_name: $('title').text(), //您当前页面的自定义页面编码
+                }]
+
+            });
+            if ( val == '' ) {
+                // alert("请输入您要搜索的内容");
+                var url = 'http://www.cssn.cn/so/';
+                window.open(url);
+            } else {
+
+
+                var isPC = IsPC();//获取是否为PC端
+                if (isPC) {//如果是PC端加载PC的js和css
+                    var url = 'http://www.cssn.cn/so/s?qt=' + val;
+                    window.open(url);
+
+                } else {//如果是移动端加载移动端的js和css
+                    if (window.sessionStorage.getItem("isPc") == "true") {
+                        var oMeta = document.createElement('meta');
+                        oMeta.content = '';
+                        oMeta.name = 'viewport';
+                        document.getElementsByTagName('head')[0].appendChild(oMeta);
+                        var url = 'http://www.cssn.cn/so/s?qt=' + val;
+                        window.open(url);
+
+                    } else {
+                        var url = 'http://www.cssn.cn/so/yd/s?qt=' + val;
+                        window.open(url);
+                    }
+                }
+
+            }
+        }
+    })
+
+        
+
+
+        $(function() {
+
+            var article_title = $('.qt_article_title').text();
+            var article_id = $('.qt_article_parent').attr('data-article_id');
+            var share_channel = $('.qt_article_parent').attr('data-share_channel');
+            var published_date = $('.qt_published_date').text();
+            var article_source = $('.qt_article_source').text();
+            var article_author = $('.qt_article_author').text();
+
+            // console.log('article_title:', article_title)
+            // console.log('article_id:', article_id)
+            // console.log('share_channel:', share_channel)
+            // console.log('published_date:', published_date)
+            // console.log('article_source:', article_source)
+            // console.log('article_author:', article_author)
+
+            // Quick Tracking 详情页浏览
+            aplus_queue.push({
+                'action':'aplus.sendPV',
+                'arguments':[{ is_auto: false}, {
+                    //保留字段
+                    page_name:'article_detail_page',
+                    page_title:'文章详情页',
+                    //可选参数
+                    article_title: article_title,
+                    article_id:article_id,
+                    article_author: article_author,
+                    article_source: article_source,
+                    published_date: published_date,
+                }]
+            });
+
+            // 点击分享埋点
+            $('.ops_icons a').on('click', function(e) {
+                var btnName = $(this).attr('title')
+                var isOriginal = ''
+                if (article_source.indexOf('中国社会科学网') != -1 && isOriginal != '') {
+                    isOriginal = '原创'
+                } else {
+                    isOriginal = '非原创'
+                }
+                aplus_queue.push({
+                    'action':'aplus.record',
+                    'arguments':['adp_share_click', 'CLK', {
+                        article_id: article_id,
+                        page_name: "article_detail_page", //您当前页面的自定义页面编码
+                        s_original: isOriginal,//btnName,
+                        article_title: article_title,
+                        published_date: published_date,
+                        article_source: article_source,
+                        article_author: article_author,
+                        share_channel: btnName
+                    }]
+                });
+            })
+
+            // 点击文章页中的链接埋点
+            $('.content_center a').on('click', function() {
+                aplus_queue.push({
+                    'action':'aplus.record',
+                    'arguments':['adp_hyperlinks_click', 'CLK', {
+                        article_id: $(this).attr('href'),
+                        page_name: "文章详情页-超链接点击", //您当前页面的自定义页面编码
+                    }]
+                });
+            })
+
+
+
+
+        })
+</script>
+<!-- head start -->
+<div class="top pcNone">
+    <div class="top_main">
+        <div class="top_left">
+            <a href="/"><img src="/images/sk_logo_v2022.png" alt="" /></a>
+        </div>
+        <div class="top_right">
+            <div class="PcBtn"><img src="/images/sk_m_pcbtn.png" alt="" /></div>
+            <div class="searchBtn"><img src="/images/sk_m_searchbtn.png" alt="" /></div>
+            <div class="AppBtn"><img src="/images/sk_m_mobilebtn.png" alt="" /></div>
+            <div class="search_div mobileNone">
+                <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+                <input class="search_btn" name="searchButton" type="button" value="搜索" />
+            </div>
+        </div>
+    </div>
+    <div class="search">
+        <div class="search_div">
+            <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+            <input class="search_btn" name="searchButton" type="button" value="搜索" />
+        </div>
+        <div class="search_close"></div>
+    </div>
+</div>
+<!-- head end -->
+<!-- nav start -->
+<div class="nav_wrap">
+    <div class="nav_main">
+        <div class="nav_box">
+            <ul class="nav_ul clear">
+                <li><a class="icon_learn" href="/xxzx/" target="_blank" ignoreapd="true">中心</a></li>
+                <li><a href="/skyl/" target="_blank" ignoreapd="true">社科要论</a></li>
+                <li><a href="https://v.cssn.cn/#/index" target="_blank" ignoreapd="true">社科视频</a></li>
+                <li><a href="/dkzgxp/" target="_blank" ignoreapd="true">中国学派</a></li>
+                <li><a href="https://sz.cssn.cn/" target="_blank" ignoreapd="true">数字思政</a></li>
+                <li><a href="/kgxc/" target="_blank" ignoreapd="true">考古现场</a></li>
+                <li><a href="/zkzg/" target="_blank" ignoreapd="true">智库中国</a></li>
+                <li><a href="/gzyx/" target="_blank" ignoreapd="true">应用高校</a></li>
+                <li><a href="/ggzp/" target="_blank" class="nav_zp" ignoreapd="true">公告<i></i>招聘</a></li>
+                <li><a class="arrow" href="javascript:;">学科体系<i></i></a></li>
+            </ul>
+            <a class="nav_more nav_site_pc" href="javascript:;">+</a>
+            <a class="nav_more nav_site_more" href="javascript:;"><img src="/images/sk_nav_rtbg.png" /></a>
+        </div>
+        <div class="nav_fixed_logo"><a href="/"><img src="/images/sk02-logo-nav0.png" alt="" /></a>
+        </div>
+        <div class="nav_fixed_search">
+            <input class="search_input" type="text" name="temp" placeholder="请输入您要搜索的内容" />
+            <input class="search_btn" name="searchButton" type="button" value="" />
+        </div>
+        <div class="AppBtn2"><img src="/images/sk_m_mobilebtn.png" alt="" /></div>
+    </div>
+    <!-- 学科体系下拉菜单 -->
+    <div class="sub_xktx">
+        <div class="nav_wrapper">
+            <a href="/mkszy/" target="_blank" ignoreapd="true">马克思主义</a>
+            <a href="/zx/" target="_blank" ignoreapd="true">哲学</a>
+            <a href="/jjx/" target="_blank" ignoreapd="true">经济学</a>
+            <a href="/fx/" target="_blank" ignoreapd="true">法学</a>
+            <a href="/lsx/" target="_blank" ignoreapd="true">历史学</a>
+            <a href="/wx/" target="_blank" ignoreapd="true">文学</a>
+            <a href="/xwcbx/" target="_blank" ignoreapd="true">新闻传播学</a>
+            <a href="/ysx/" target="_blank" ignoreapd="true">艺术学</a>
+            <a href="/zzx/" target="_blank" ignoreapd="true">政治学</a>
+            <a href="/shx/" target="_blank" ignoreapd="true">社会学</a>
+            <a href="/mzx/" target="_blank" ignoreapd="true">民族学</a>
+            <a href="/jyx/" target="_blank" ignoreapd="true">教育学</a>
+            <a href="/glx/" target="_blank" ignoreapd="true">管理学</a>
+            <a href="/jsx/" target="_blank" ignoreapd="true">军事学</a>
+            <a href="/zgdsdj/" target="_blank" ignoreapd="true">中共党史党建</a>
+            <a href="/qygbx/" target="_blank" ignoreapd="true">区域国别学</a>
+            <a href="/gjaqx/" target="_blank" ignoreapd="true">国家安全学</a>
+        </div>
+    </div>
+</div>
+<!-- nav end -->
+<div class="nav_site_more_con clear">
+    <i class="more_btn"></i>
+    <div class="layout clear">
+        <h1 class="clear"><a href="/"><img src="/images/sk_logo_v2022.png" alt="" /></a></h1>
+        <ul class="clear navtop">
+            <li class="icon_learn"><a href="/xxzx/" target="_blank" ignoreapd="true">中心</a></li>
+
+
+                <li><a href="/skyl/" target="_blank" ignoreapd="true">社科要论</a></li>
+                <li><a href="https://v.cssn.cn/#/index" target="_blank" ignoreapd="true">社科视频</a></li>
+                <li><a href="/dkzgxp/" target="_blank" ignoreapd="true">中国学派</a></li>
+                <li><a href="https://sz.cssn.cn/" target="_blank" ignoreapd="true">数字思政</a></li>
+                <li><a href="/kgxc/" target="_blank" ignoreapd="true">考古现场</a></li>
+                <li><a href="/zkzg/" target="_blank" ignoreapd="true">智库中国</a></li>
+                <li><a href="/gzyx/" target="_blank" ignoreapd="true">应用高校</a></li>
+                <li><a href="/ggzp/" target="_blank" class="nav_zp" ignoreapd="true">公告<i></i>招聘</a></li>
+
+
+        </ul>
+        <div class="more_con clear">
+            <a href="/zjzg/" target="_blank" ignoreapd="true">志鉴中国</a>
+            <a href="/skgz/" target="_blank" ignoreapd="true">社科关注</a>
+            <a href="/skyl/" target="_blank" ignoreapd="true">社科要论</a>
+            <a href="/dsskhs/" target="_blank" ignoreapd="true">社科好书</a>
+            <a href="/skqns/" target="_blank" ignoreapd="true">社科青年说</a>
+            <a href="/wlqglt/" target="_blank" ignoreapd="true">网络强国论坛</a>
+            <a href="/skrmt/" target="_blank" ignoreapd="true">社科融媒体</a>
+           
+        </div>
+        <h3 class="clear">学科体系</h3>
+        <div class="more_con clear">
+            <a href="/mkszy/" target="_blank" ignoreapd="true">马克思主义</a>
+            <a href="/zx/" target="_blank" ignoreapd="true">哲学</a>
+            <a href="/jjx/" target="_blank" ignoreapd="true">经济学</a>
+            <a href="/fx/" target="_blank" ignoreapd="true">法学</a>
+            <a href="/lsx/" target="_blank" ignoreapd="true">历史学</a>
+            <a href="/wx/" target="_blank" ignoreapd="true">文学</a>
+            <a href="/xwcbx/" target="_blank" ignoreapd="true">新闻传播学</a>
+            <a href="/ysx/" target="_blank" ignoreapd="true">艺术学</a>
+            <a href="/zzx/" target="_blank" ignoreapd="true">政治学</a>
+            <a href="/shx/" target="_blank" ignoreapd="true">社会学</a>
+            <a href="/mzx/" target="_blank" ignoreapd="true">民族学</a>
+            <a href="/jyx/" target="_blank" ignoreapd="true">教育学</a>
+            <a href="/glx/" target="_blank" ignoreapd="true">管理学</a>
+            <a href="/jsx/" target="_blank" ignoreapd="true">军事学</a>
+            <a href="/zgdsdj/" target="_blank" ignoreapd="true">中共党史党建</a>
+            <a href="/qygbx/" target="_blank" ignoreapd="true">区域国别学</a>
+            <a href="/gjaqx/" target="_blank" ignoreapd="true">国家安全学</a>
+        </div>
+        <h3 class="clear mobileNone">新媒体矩阵</h3>
+        <div class="more_con clear mobileNone">
+            <ul class="new_media_ul">
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922337226245876.png" alt="sk_v2022_front_wechat.png"/>
+                        <p>微信小程序</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929538050877342.jpg" alt="小程序106.jpg"/>
+                        <p>微信小程序</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922336887208883.png" alt="sk_v2022_front_gzh.png"/>
+                        <p>微信公众号</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929539559790487.jpg" alt="微信106.jpg"/>
+                        <p>微信公众号</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220922336458060142.png" alt="sk_v2022_front_zgxp.png"/>
+                        <p>中国学派</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929539793588017.jpg" alt="学派106.jpg"/>
+                        <p>中国学派</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020230615600845961620.png" alt="W020220922336137882083.png"/>
+                        <p>中国社会科学报</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020230616566952919336.jpg" alt="111.jpg"/>
+                        <p>中国社会科学报</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929459900615313.png" alt="123.png"/>
+                        <p>新浪微博</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929540194201728.jpg" alt="微博106.jpg"/>
+                        <p>新浪微博</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="card_container">
+                    <div class="front">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929460609289083.png" alt="123.png"/>
+                        <p>今日头条号</p>
+                    </div>
+                    <div class="back">
+                        <img src="https://www.cssn.cn/index/mtjz/202209/W020220929540425896749.jpg" alt="头条106.jpg"/>
+                        <p>今日头条号</p>
+                    </div>
+                </div>
+            </li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 嵌套头部结束 -->
+<!-- content -->
+<div class="wrap_fullWidth sk_warp_center_repeat clear">
+    <div class="warp_center">
+        <div class="sk_crumbs">
+            <a href="../../../../" target="_self" title="首页" class="CurrChnlCls">首页</a>&nbsp;>&nbsp;<a href="../../../" target="_self" title="读刊·中国学派" class="CurrChnlCls">读刊·中国学派</a>&nbsp;>&nbsp;<a href="../../" target="_self" title="《国际社会科学杂志》（中文版）" class="CurrChnlCls">《国际社会科学杂志》（中文版）</a>&nbsp;>&nbsp;<a href="../" target="_self" title="2022年第4期" class="CurrChnlCls">2022年第4期</a>
+        </div>
+        <div class="warp_center_content">
+            <div class="content_head">
+                <h1>圆桌论坛：生命观与表象世界</h1>
+                
+                <div class="head_intro clear">
+                    <div class="intro_left fl">
+                        <span>2023-04-11</span>
+                        <span><font>作者：</font>长野荣俊等</span>
+                        
+                        <span><font>来源：</font>《国际社会科学杂志》（中文版）2022年第4期</span>
+                    </div>
+                    <div class="intro_right fr">
+    <div class="view sk_share" id="ops_share"></div>
+    <script src="/images/share_cssn.min.js" charset="utf-8"></script>
+</div>
+                </div>
+            </div>
+            <div class="content_summary borderdouble">
+                <p><strong>摘&nbsp;&nbsp;要：</strong>20世纪80年代以来直到今天，日本大众文化冲击全球。大众文化的丰富发展，为日本人对世界讲好日本故事贡献厥伟，而妖怪文化是日本大众文化最锋锐的“尖刀”。中国古代妖怪文化千百年传承不断，拥有妖怪研究富集的矿脉。</p>
+                <div class="content_keyword"><p><strong>关键词：</strong><span>圆桌论坛;生命观;表象世界</span></p></div>
+                <p>作者：长野荣俊,日本福井县文书馆职员；香川雅信，日本兵库县立历史博物馆研究员；小松和彦，日本京都国际日本文化研究中心原主任、名誉教授；安井真奈美，日本京都国际日本文化研究中心教授；木场贵俊，日本京都国际日本文化研究中心研究员。　　</p>
+            </div>
+            <div class="content_center">
+                <div class=TRS_Editor><p align="center">　　<img style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px" alt="" oldsrc="W020230411553875916557.gif" src="./W020230411553875916557.gif" /></p>
+<p align="center">　　<strong>疫病与妖怪——新冠病毒与海彦</strong></p>
+<p align="right">　　<strong>长野荣俊著</strong></p>
+<p align="right">　　<strong>周雅译</strong></p>
+<p align="justify">　　自2020年2月27日新冠病毒在日本传播扩散开始，推特上就出现了要求绘图投稿海彦妖怪的呼声。社交网站上的插图和照片投稿接连不断地出现，最终将这股海彦妖怪的热潮蔓延到日常生活中。海彦画像被运用于各类商品和媒体上，立体模型被制造出来，传统宗教也发布了海彦的护身符和御守。</p>
+<p align="justify">　　最初的投稿人介绍了海彦说过的话——“一旦出现疫病就描绘我的形象给人们看吧”， 4月，厚生劳动省选定海彦作为“停止感染扩大”的启发形象，也说明了“海彦是保护人们免除疫病之灾的妖怪”。确实如此，风靡一时的海彦形象一旁总是伴着“疫病退散”四个字。</p>
+<p align="justify">　　但历史上的海彦其实与疫病退散并没有直接关联，更有可能曾经是作为与现实中的疫病流行没有关联的妖怪而出现的。</p>
+<p align="justify">　　海彦在20世纪中期的新闻传媒史书籍记载中一次也没有出现过。此外也没有任何关于它“出现”的口述传承，目前为止只在一份带着1846年号的“瓦版”资料中有记载。“瓦版”是在大都市坊间行走贩卖的非合法出版物，采用假名混合的文体，文本多伴有配图，作为新闻报道和娱乐媒介被接受。海彦的瓦版记载如图1。</p>
+<p align="center">　　<img style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px" alt="" oldsrc="W020230411553876624967.jpg" src="./W020230411553876624967.jpg" /></p>
+<p align="justify">　　<font color="#0000ff">图1 アマビエ（京都大学附属図書館蔵）。肥后国（熊本县）的海里出现了发光物。官吏前去查看，出现了图中所示的妖怪。“我是海彦。今年起接下来6年间各国丰收，但疫病盛行。尽快把我描绘下来给人们看吧！”海彦说完就回到海里。这幅画就是官吏根据海彦形象所描绘的。</font></p>
+<p align="justify">　　海彦说出“把我描绘下来给人们看吧”的设定，其实不过是一种为了抬高妖怪出现的新闻可信度的修辞手段。也就是说，这种“消息”（实为捏造）被伪装成江户时代坊间流传的官吏的真实体验，目的其实是给人以情报可信度高的印象。所以海彦并不能“将自己形象示人便可免人疫病之苦”。既然如此，为什么海彦还是跟“时疫对策”联系起来了呢？</p>
+<p align="justify">　　自2000年开始，海彦作为一种“预言兽”成为妖怪研究的考察对象。预言兽是汤本豪一提出的妖怪分类中的一种，是“幻兽中预言未来并可以告知人类”的妖怪。之后常光徹又把告知除灾方法（应对时疫的手段）的新要素添加到定义中。汤本豪一以1875年、1881年、1882年报纸中出现的“天日子”“天彦”“あま彦”等记载为线索，推断海彦的日文假名“アマビエ”中的“エ”是预言兽“アマビコ”中“コ”的误记。基于汤本豪一的研究，笔者挑出了追溯到海彦史料记录的数年之前，即1843年至1844年间预言兽“アマビコ”的四份记载资料进行介绍。这样一来就可以确认海彦（アマビエ）实为天彦（アマビコ）派生出来的妖怪。下面就来介绍一下1843年关于“天彦”记载中的一份资料（如图2）。</p>
+<p align="center">　　<img style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px" alt="" oldsrc="W020230411553876656895.jpg" src="./W020230411553876656895.jpg" /></p>
+<p align="justify">　　<font color="#0000ff">图2 あま彦（名古屋市蓬左文庫蔵「青窓紀聞」）。肥后国熊本领地的真重郡每晚都会出现发光生物，且能用猿声唤人，一个叫柴田五郎左卫门的武士特地前往调查。之后就遇到了天彦，“我是住在海里的天彦。今年起接下来6年间会连续丰收，但各国会有六成的人病死。不过描摹下我的形象来看的人将会无病长寿。快快去告知各国吧！”天彦说完这段话，马上就消失了。</font></p>
+<p align="justify">　　这份资料不是印刷品，但附有“文体奇妙，像是瓦版”的旁注。其他三份资料都是手写体，从成套的文章和图像的组合可以认定无论哪份资料都是经过一些人模写传承下来的瓦版。值得注意的是，这些传承下来的地域有名古屋（爱知县）和越前（福井县），农村地区也包含在其中。据说模写的人群包括下级武士、富农富商和农村知识群体等能够通过社会网络抄写传承的阶层。</p>
+<p align="justify">　　以上所述的天彦并非是预言兽的首次登场。1819年在江户、名古屋和大阪等地被确认流行的人鱼才是最早的例子。这种人鱼有“神社姬”“姬鱼”“女鱼”等多种名称，容貌身姿是长发的女人面鱼形象，尾鳍端通常被描绘为三根分叉。这类人鱼多出现在肥前国平户（长崎县），相传预言内容包括7年间连续丰收和霍乱盛行会导致大量死亡，以及想要逃离疫病就将自己形象描绘下来的告诫（如图3）。</p>
+<p align="center">　　<img style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px" alt="" oldsrc="W020230411553876744066.jpg" src="./W020230411553876744066.jpg" /></p>
+<p align="center">　　<font color="#0000ff">图3 神社姫（名古屋市蓬左文庫蔵「青窓紀聞」）</font></p>
+<p align="justify">　　事实上，这一年江户痢疾肆虐，无数的人死于霍乱。这种情形下想大赚一笔的正是瓦版作者。疫病流行成为预言兽预言过的内容，只要购买瓦版就能得到护身符庇佑，如此一来就抬高了商品价值。</p>
+<p align="justify">　　毋庸置疑，海彦是受到人鱼影响的妖怪。长发、三分尾鳍、胴体遍鳞等外观上的共同点有很多。另外，海彦的名称与出现地区，以及预言的内容也和天彦类似。笔者认为，海彦是1819年的人鱼和1843年的天彦两者结合创造出来的新产物，也就是说海彦诞生并非“误记”而是“有意为之”。</p>
+<p align="justify">　　那么其他的预言兽最初也都是作为“时疫对策”才出现的吗？比1843年的天彦更早出现的有1827—1828年间的“くたべ”（罗马字 kutabe），还有1832年的“奇鸟”，给出了疫病流行以及感染疟疾“痉挛而死”的预言，并传授了除灾方法。</p>
+<p align="justify">　　另外，预言兽瓦版里面甚至包含了娱乐的要素。“くだべ”衍生出来的搞笑瓦版“放屁妖怪”也被发行出来，“天彦”妖怪的脸也被描绘成由“天”“ひ”“こ”三个字构成的文字绘。也就是说，妖怪瓦版不仅被期望带有护身符功能，同时也被赋予了娱乐的效用而被人们接受。</p>
+<p align="justify">　　但是，每隔一段时间就会重复出现同样特点的预言兽。1858年江户霍乱流行时售卖的瓦版与1843年出现的天彦瓦版相比可以说一字未改，1882年东京霍乱兴起时，同样内容的天彦印刷物也被贩卖出来。一旦遭受疫病，这些妖怪们就重新被想起搬出来，当作每次“时疫的对策”流传开来。</p>
+<p align="justify">　　不过，1882年的天彦之后再没出现过预言兽。人们都抱持着只要看到珍兽、幻兽的画像就能招福除灾的心理，与此同时抄写新闻的阶层又不断扩大，这样一来，19世纪就可以被看作一个瓦版兴盛的时代。诸多要素都支撑着当时预言兽的流行，笔者认为预言兽是在“19世纪这样的时代”下才会诞生的产物。</p>
+<p align="justify">　　时代的步伐迈入21世纪，无法告诉我们除灾方法的缺陷预言兽——海彦，这次倒是甩掉预言的要素流行起来。岛村恭则指出，新冠灾祸下海彦的流行可以从folkloresque（正在被收入大众文化中的类民俗传承）的角度把握。这里的“类”，也随着瓦版的资料图像作为开放资源在社交网站等媒介上的扩散而被快马加鞭推广。21世纪的海彦也好，1846年最初的海彦也好，都历经了演变，他们似乎不再作为预言兽，而是作为带着“民间传承特质”的疫病退散形象逐步在社会中生根发芽。</p>
+<p align="center">　　<strong>参考文献</strong></p>
+<p align="justify">　　湯本豪一，『日本幻獣図説』，河出書房新社, 2005。</p>
+<p align="justify">　　常光徹，『妖怪の通り道』，吉川弘文館, 2013。</p>
+<p align="justify">　　長野栄俊，「予言獣アマビコ考」，『若越郷土研究』，49-2, 2005。</p>
+<p align="justify">　　長野栄俊，「予言獣アマビコ·再考」，『妖怪文化研究の最前線』，せりか書房, 2009。</p>
+<p align="justify">　　長野栄俊，「変質するアマビエ」，『歴史地理教育』，919, 2021。</p>
+<p align="justify">　　島村恭則，『みんなの民俗学』，平凡社, 2020。　　</p>
+<p align="center">　　<strong>　日本的妖怪研究的历程</strong></p>
+<p align="right">　　<strong>香川雅信著</strong></p>
+<p align="right">　　<strong>葛栩婷译</strong>　</p>
+<p align="justify">　　日本的妖怪研究始于佛教哲学研究者井上圆了（1858—1919）于明治二十年提出“妖怪学”这一概念。井上圆了的“妖怪学”之所以重要，不仅仅因为他开始以妖怪为研究对象，还因为其妖怪学使得“妖怪”一词深入人心。</p>
+<p align="justify">　　在井上圆了之前，还未出现“妖怪”一词，江户时代的庶民一般称这类存在为“怪物”（日语原文：化物（ばけもの））。井上圆了所说的“妖怪”，广义上是指无法用日常逻辑解释的不可思议的存在，狭义上则是指在近代化过程中不得不克服的“迷信”。当时的人们并不像现在一样用“妖怪”一词代指“不可思议的存在”，只是将“妖怪”一词作为代替陈词“怪物”的明治新词加以接受。</p>
+<p align="justify">　　井上圆了的“妖怪学”虽然承认“真怪”的存在，但井上圆了认为，大部分“妖怪”只是人们用某种手段故意制造出来的“伪怪”和一些因偶然事件引发的“误怪”。因为人们无法用已有的知识和逻辑解释这些现象，所以说到底，人们看到的只是“假怪”。为了证明自己的观点，井上圆了用各种知识对这些“假怪”做了解释。这是从自然科学的角度针对“妖怪”是否真实存在而展开的研究。与之相对的，且不论“妖怪”是否真实存在，将“妖怪”作为一种表象，亦即人类想象力的产物加以认知，并对其变迁及其背后人类的思考过程展开人文研究的，则是在大正以后。</p>
+<p align="justify">　　首先是风俗史家江马务（1884—1979）于1923年出版了《日本妖怪变化史》一书。该书以绘画和文献等为基础资料，尝试分类总结妖怪的历史变迁及其形态和性质等。和江马务一样，民俗学家柳田国男（1875—1962）也对相关资料做了总结归纳，但与此同时，柳田国男还强调了对妖怪展开人文研究的必要性。柳田国男的民俗学以民间代代相承的口传资料为主要研究对象，并致力于复原日本人过去所持的信仰。</p>
+<p align="justify">　　柳田国男的妖怪学说主要集中在1934年出版的《独目小僧及其他》以及1956年出版的《妖怪谈义》两部著作中。其最重要的假说为，将妖怪作为因失去人类信仰而零落的神来看待。这显然受到了人类学文化进化论的影响，也就是说，一些人类无法理解的传承和习惯乃是前一个时代的“残存”（survival）。其后，柳田国男的这一“零落说”成为民俗学的定说，以至于妖怪的问题看上去已经在柳田国男那里得到解决。此后，民俗学的妖怪研究进入了停滞期。</p>
+<p align="justify">　　妖怪再次进入大众视野是在20世纪70年代以后，契机是大众文化中掀起的妖怪热。1968年，连载于讲谈社漫画杂志《周刊少年》的水木茂（1922—2015）作品《墓地的鬼太郎》被搬上电视荧幕，更名为《咯咯咯的鬼太郎》。随着这部作品的动画化，日本掀起了一波妖怪热。在这一时期，以阿部主计的《妖怪学入门》为首，日本出版了大量介绍妖怪的概论书。</p>
+<p align="justify">　　20世纪80年代，民俗学家小松和彦（1947— ）与宫田登（1936—2000）提出了新的妖怪理论，妖怪研究进入了一个新的活跃期。小松和彦在1982年出版的《凭灵信仰论》一书中，质疑了柳田国男的“零落说”，指出不仅神会零落为妖怪，妖怪同时也会升级为神。神与妖怪作为两种超自然的存在，虽然前者的形象更为正面，后者的形象带着一些负面因素，但两者其实代表的是同一事物的两个侧面。为了更好地区分两者，小松和彦建议以是否被祭祀为标准对两者进行“工作假说”（用于实际研究操作的暂时性的假说——译者注）式的区分。这样一来，研究的重点便不再是搞清楚妖怪究竟是什么，而是在于弄明白超越妖怪的存在——民俗社会的宇宙论究竟是什么。另一方面，宫田登则在1985年出版的《妖怪民俗学》一书中明确指出，虽然一直以来妖怪被认为是村落共同体中特有的现象，但事实上，妖怪同样存在于都市空间中，因此，妖怪也可以作为一个现代问题进行考虑。</p>
+<p align="justify">　　80年代以后妖怪研究的活跃，开始让妖怪研究与娱乐作品相结合。梦枕貘的奇幻小说、京极夏彦的推理小说、诸星大二郎的《妖怪猎人》系列以及荻野真的《孔雀王》等，为了使虚构的作品具备现实性，这些小说和漫画作品借鉴了大量妖怪研究的学术成果。尤其是90年代的“学校怪谈”热，可以说是受到妖怪研究影响最大的。“学校怪谈”是民俗学家常光徹（1948— ）在口传文艺领域内开发的新课题。常光徹指出，一般认为已经消失于现代社会的妖怪文化，其实仍然存在于学校这一特异空间中。常光徹的学校怪谈研究给口传文艺研究带来了极大的冲击。常光徹的研究主要见于其在1993年出版的《学校怪谈》一书中。1990—1997年的7年间，常光徹还出版了专门面向儿童的“学校怪谈”类书籍，博得了孩子们的喜爱。由此，包括大众媒体在内，都掀起了一阵“学校怪谈”热。儿童版的《学校怪谈》被改编成电视剧与电影，以“学校怪谈”为主题的儿童书籍与漫画被大量出版。</p>
+<p align="justify">　　与此同时，小松和彦则在1994年出版的《妖怪学新考》中提出了“妖怪研究即是人类研究”的观点。在小松和彦看来，和研究人一样，研究妖怪也必须用综合性的、跨学科的方法。由此，小松和彦提出了新的“妖怪学”概念，他认为，各个学科的研究成果都可以在“妖怪学”这一课题下共享、综合。于是，作为对综合性“妖怪学”的实践，在小松和彦的主持下，国际日本文化研究中心于1997—2014年连续17年举办共同研究会，来自民俗学、文化人类学、国文学、美术史、历史学、人文地理学、宗教学、思想史、建筑史、艺术史、信息学、临床心理学等学科的研究者都参与其中。这样跨学科的“妖怪学”，使得妖怪研究突破了民俗学的限制，获得了前所未有的研究空间。</p>
+<p align="justify">　　在这一风潮下，娱乐、大众文化中的妖怪研究尤为出彩。一直以来，妖怪与日本人的娱乐以及大众文化结合一事，都被认为是次生性、附属性的。但自从国际日本文化研究中心举办共同研究会以来，怪物屋、连环画剧、歌舞伎、落语、草双纸、绘双六等近世娱乐文化中的妖怪也开始进入研究者的视野。香川雅信（1969— ）在《江户的妖怪革命》（2005）一书中从文化史的角度深入研究了这一问题，他指出，以江户时代中期（18世纪后半叶）为分水岭，日本人的妖怪观念发生了极大的转变。妖怪从体现人类对自然的敬畏的存在转变为作为娱乐题材的可以掌控的“人物”。</p>
+<p align="justify">　　现在的妖怪研究几乎已经无法忽视妖怪与大众文化的关联。就像我们在“学校怪谈”热中看到的那样，妖怪研究自身无法从大众文化中“独立”出来。而本来“妖怪”一词就是在学术研究和大众文化的“共犯关系”下成长起来的。可以说，这种妖怪与大众文化的关系就是日本的妖怪研究所持有的特异性。　　</p>
+<p align="center">　　<strong>关于构建全新妖怪文化理论意义的思考</strong></p>
+<p align="right">　　<strong>小松和彦著</strong></p>
+<p align="right">　　<strong>秘秋桐译</strong>　　</p>
+<p align="justify">　　在日本，哲学家井上圆了开创了专门研究“妖怪”的学问，即“妖怪学”的先河。不过他设立这门学问的初衷是希冀借此消灭名为“妖怪”的“迷信”。19世纪中期，日本开始实施开国政策并不断吸收欧美的文化成果，政府采用科学、合理的思维方式来推进国家的近代化进程。在此过程中，很多日本文化的产物被当作妨碍近代化的“恶习”而遭到抛弃，“妖怪”作为其中的一部分也成为了被消灭、被抛弃的对象之一。</p>
+<p align="justify">　　尽管“妖怪”的定义十分复杂，不过，本文中我希望将其定位为超过人类认知范畴的，即与超自然的、神秘的领域相关联的现象，并由此展开说明。</p>
+<p align="justify">　　确实，近代以后，人们将妖怪视为“迷信”（这是错误的解释），故持续对其进行打压。最终，多数人已经远离了相信妖怪的时代。像使用神秘的方法即“诅咒”去杀人，或者说狐狸变人进而危害人，抑或山里藏着名叫“鬼”的生物，它们头上长角、身材高大、酷似人形等这一类故事，在日本早已没人相信了。</p>
+<p align="justify">　　然而，在当时的人类生活中，“妖怪”能够为那些引起民众戒备、恐惧心理的令人“不可思议”的现象，提供一个可以接受的解释、便利的“解说装置”，这一点是不容忽视的。此外，围绕这些妖怪们所产生的文化十分丰富，对我们的生活文化领域也有各式各样的影响。特别是虚构小说的世界里，妖怪的活跃令人瞩目。可以说，这些妖怪形象是在吸收前辈们所创造的妖怪文化的养分中诞生的。</p>
+<p align="justify">　　以此为前提，在我们所提倡的“新妖怪学”中，“妖怪”并非超自然、神秘的产物，而是由人类的想象力所创造出的“文化”。从“文化现象”的角度来看，人们通常将“妖怪”定义为超自然的、神秘的、较为奇特的现象或生物，我提出应将文化中的妖怪形象作为一门学科来进行研究。由此，这必然也是对创造出妖怪形象的日本文化本身，甚至是对日本人的研究。</p>
+<p align="justify">　　那么，妖怪学者又要在哪里进行妖怪的研究呢？当然，研究者们不会去动物园不断观察老狐狸会不会变成人形，也不会跑到深山里等着和鬼怪撞个正着。因为妖怪并不在那里。</p>
+<p align="justify">　　妖怪形象（传承）主要包括以下四个研究领域：（1）口头传承（民间传承）形象领域；（2）文献传承（文字记录）形象领域；（3）艺能（身体）形象领域；（4）造型艺术（绘画、雕刻）形象领域。某个妖怪会在一个形象领域，例如，有时会在文献传承（文字记录）形象领域，即文学作品中出现，其形象也会被挪用到艺能和绘画等其他的形象领域中。进入现代社会后，情况就变得更加复杂了，部分形象会同时出现在电影、动画、漫画等多个媒介之中。同时，在日常生活中的各个领域内也渗透着这些形象。</p>
+<p align="justify">　　那么，这样的妖怪现象研究有什么意义呢？在此，我主要想指出以下四点。</p>
+<p align="justify">　　第一，该研究可以填补既往日本文化史研究中的空白，使其更具深度。研究者曾将妖怪视为迷信亦即亟待被抹杀的对象，了解妖怪对现在和未来都没有太大帮助，所以并未对这个现象进行深入研究。妖怪作为文化的一部分，与宗教、信仰紧密相连，同时和文学、美术、艺能、游戏等艺术、娱乐等领域密切相关。对于深刻理解以上学科来讲，妖怪是不可或缺的现象。</p>
+<p align="justify">　　第二，妖怪同时也是一种文化资源。日本的妖怪文化具有较长的历史传统，留存了大量与之相关的文物。这不仅是过去的遗产，现代人也可以从这些文物中获得乐趣，同时它们也是小说、动画、漫画、游戏等现代大众文化和娱乐文化的创作素材。尽管人们会认为研究妖怪对现代人也没有太多帮助，但实际上，挖掘先人所留下的庞大的妖怪文化遗产并对其进行分析、研究，可以刺激现代文化创作者的想象力，对新的日本文化，特别是大众文化和娱乐文化的创作具有较大贡献。</p>
+<p align="justify">　　第三，妖怪形象同时也是研究日本文化论和日本人论的重要素材。妖怪形象寄托了当时人们的喜怒哀乐。解读妖怪形象，可以帮助我们了解作者的思想和心境，理解同时代人的自然观和世界观，还原当时民众的生活情境。同时，以此为中介，我们可以展开对比较文化理论和人文科学理论的研究。毕竟，妖怪曾经是反映人类生活和思想的镜子。</p>
+<p align="justify">　　第四，不仅是日本人，研究妖怪形象可以增进我们人类自身的理解。妖怪确实被人类放逐出了现实世界。但是，妖怪在虚构小说（创作）中非常活跃。人类是极具想象力的动物。我们不仅可以想象现实中不存在，或者说不可思议的事情频繁发生的世界，同时也可以想象出现实中没有的形态奇特的生物或者拥有神秘能力的人类。由是，人们创作出大量描述这类世界的物语故事。我们通常将其称为“传奇”“幻想”或者“科幻”。</p>
+<p align="justify">　　直到现在，人类还是对“另一个世界”“异界”或者说“异世界”充满向往。这肯定是因为，这种向往可以帮助我们在精神上超越，甚至实现脱离在各方面受限的现实世界的梦想。</p>
+<p align="justify">　　如此想来，近年在国内外好评如潮的吉卜力动画工作室推出了《龙猫》《幽灵公主》《千与千寻》《百变狸猫》等动画，其中反复提到了异界和妖怪的概念。最近，被视为社会现象而受到好评的动画《鬼灭之刃》也是一部讲述击退妖怪故事的科幻物语。现在，妖怪形象赢得了大众的喜爱，同时也受到满足大众欲望的作品（文化现象）的欢迎。</p>
+<p align="justify">　　长期以来，学界认为动画和漫画是哄小孩的、缺乏艺术性的低俗文化，并未将其纳入研究视野。然而，我认为全新的妖怪文化研究应和现代大众文化理论一样，成为孕育出全新大众文化的养分。但是，妖怪现象存在于各个领域，因此研究者们有必要超越既有的学科限制，创造出崭新的、综合性的研究框架。&nbsp;</p>
+<p align="center">　　<strong>被妖怪盯上的身体——朝向身体观、疾病观的比较研究</strong></p>
+<p align="right">　　<strong>　安井真奈美著</strong></p>
+<p align="right">　　<strong>宋丹丹译</strong></p>
+<p align="left">　　<strong>盯上向外界开放的孔穴</strong></p>
+<p align="justify">　　以前，人们认为生病是被恶灵或者妖怪缠身所致。那么，一个令我们困惑的问题是，恶灵或者妖怪在入侵我们身体的时候，到底是从哪个部位入侵的呢？</p>
+<p align="justify">　　对于这个疑问的解答就要涉及人们的疾病观或者是身体观的研究了。说到被妖怪盯上的身体各部位的话，自然而然想到的是身体与外界的出入口，也就是外界与身体交接的边界部位了。</p>
+<p align="justify">　　据学者小松和彦的分析，远离中心部、边界模糊且阴暗的空间，又或是自身所属领域与异领域交界的空间，也就是被叫作“境界”的地方是容易出现妖怪的场所（小松和彦：《何为妖怪的魅力》 2016 年第28 回“人文机构研讨会‘妖怪空间——可能出现的场所’”）。空间论上的边界是与家相离的村界，时间论上的境界是昼夜之交、生死之界。</p>
+<p align="justify">　　同理，如果是人的身体边界会在哪里呢？最容易想到的身体边界应该就是皮肤了。因为皮肤阻隔着外界与身体的接触。学者黑田日出男指出，生活在11世纪前后的民众认为疾病是恶灵、鬼等的入侵或者是邪风入体所致，因此毛孔首当其冲地被认为是疾病入侵的途径（《边界的中世 想象的中世》，东大出版会，1986 年）。皮肤上无数的毛孔有着排汗功能的同时，也带来了某些东西可能会通过毛孔进入身体的疑虑。</p>
+<p align="justify">　　不仅如此，恶灵也会演化成疾病从身体的孔穴中出来。绘于13世纪的《北野天神缘起》中有这样一个场面，即两只蛇翘着头要从病着的藤原时平的两只耳朵中出来。原来是藤原时平的死对头菅原道真的怨灵幻化成蛇现身，并威胁前来祈祷的僧人停止祈祷。僧人离去后，藤原时平立刻死了。因此，耳朵也被认为是恶灵的入侵口。（Manami Yasui，“Where Yōkai Enter and Exit the Human Body: From Medieval Picture Scrolls to Modern Folktales in Japan,” Studies in Japanese Literature and Culture, trans.,Kristopher Reeves, March 2019, pp.61-72）</p>
+<p align="justify">　　除了耳朵之外，在近世还流传着犬神是从人的鼻孔中出入的故事。被视为恶灵的犬神从鼻孔出入豢养他们的家族成员的身体（太田明：《阿州犬神考》（1936）《乡土研究上方》）。此外，鼻孔不仅被认为是犬神等恶灵的出入口，也是人们的灵魂或者生命出窍的部位。</p>
+<p align="justify">　　据说在中国，人们认为灵魂可以从头顶上的泉门穴出窍。婴儿出生的时候，泉门穴开，婴儿头骨重合一起，头部变长以便顺利从产道出来（大形徹：《灵魂何在——中国古代的灵魂观》，角川选书，2000 年）。日本近代在接受西洋医学之前，一直受到中医巨大的影响。这对以本草学为代表的学术、思想、身体观的形成等领域都带来了持续性的影响。于是，从“被妖怪盯上的身体”这个角度探讨中国人的身体观，对于分析考察日本的妖怪、身体观具有极为重要的意义。</p>
+<p align="justify">　　<strong>盯上闭合的身体部位</strong></p>
+<p align="justify">　　除了像孔穴这样的身体开口部位之外，妖怪还会盯上其他的身体部位这一点着实颇有趣味。看来妖怪不是我们想象的只会盯上身体的孔穴这般单纯。不过妖怪本身是由人类创造出来的，因此可以反映出人类对身体的认知。</p>
+<p align="justify">　　为了分析这个问题，笔者想起之前利用国际日本文化研究中心的“怪异·妖怪传承数据库”考察的容易被妖怪盯上的身体部位这篇论文（安井真奈美 ：《怪异和身体的民俗学——从异界的角度重新阐释生育和养育》，Serica书房，2014年）。“怪异·妖怪传承数据库”（http://www. nichibun.ac.jp/YoukaiDB/）主要是民俗学者、乡土史学家等收集的近现代资料，至2020年为止累积收集的资料多达35826件。利用“怪异·妖怪传承数据库”，从数量庞大的与妖怪相关的数据中提炼分析与身体相关的资料，论证了妖怪到底是喜欢从哪些身体部位侵入，以及哪些身体部位容易出现怪异现象。</p>
+<p align="justify">　　其中，后背引发了笔者的思考。可以说，后背不是上节所论述的开放性的身体部位，而是闭合的身体部位。即便如此，妖怪还是从后背侵入人体或者从后背攻击人。比如像狐狸、黄鼠狼等动物灵，就被认为是从后背附着人体的。并且祈祷师在驱赶动物灵附体的调伏仪式中，会根据自己的后背有没有感受到重量来判断是否是狐狸附体。</p>
+<p align="justify">　　后背虽然没有孔穴，但还是容易被妖怪盯上。能够体现这一点的是衣服的背守。人们认为孩子的灵魂能够从后背出来，所以在孩子2—3岁之前，衣服的后背部分一直会缝有被叫作背守或者背缝的守护物。比如我们在《春日权现验记》（14世纪的绘卷）中可以看到拉着母亲手的孩童，衣服背后便缝有背守。背守作为孩子们衣物的守护一直被沿用到近现代。</p>
+<p align="justify">　　即使有什么东西靠近我们的后背，我们也不会立马发觉。而且后背又经常暴露在别人的视线中，自己反而看不到，再加上无论背后发生什么也不能立马确认，可以说是毫无防御能力的身体部位了。正是因为后背这样的特征，才诞生了如此多样的被妖怪盯上的故事传说吧。</p>
+<p align="justify">　　<strong>在近现代医学中</strong></p>
+<p align="justify">　　在日本，向以西洋医学为中心的近现代医学过渡的过程中，可以说身体观发生了巨大的转变。酒井SHIZU指出：“以腹为中心的身体观逐渐向西洋文化中的以头脑为中心的身体观转变，并且也反映在身体症状上。”（酒井SHIZU：“头痛的诞生与腹痛的变容”）比如像“狐狸附体”，在近现代医学中那些被认为是狐狸的动物灵附体后出现的各种症状被诊断为“精神病”，是妄想或者幻听等引起的精神状态。也就是说否定了狐狸动物灵的存在，用“精神病”这样的新名词来重新定义这些症状。这样看起来好像是近现代医学的观念成为主流，被妖怪盯上而导致疾病的观念渐渐消亡了。但是正如小松和彦所指出的，关键是即使否定了狐狸动物灵的存在，也不能治愈疾病（《妖怪学新考——从妖怪来看日本人的心》，洋泉社，2007 年）。因此在这个意义层面上，即便是现在，如果医学上解释不了的症状，也仍然会想到是因为恶灵或者妖怪等引起的身心不调。</p>
+<p align="justify">　　说到对妖怪、恶灵和身体这个题目以后的研究展望，笔者认为比较研究将成为必然趋势。且不说中国的事例，用人类学的视角分析世界各地的事例，可以更加多元地探讨人们的疾病观和身体观。比如笔者至今都在致力于从日本的传承、各种各样的关于产女的绘画、与中国“姑获鸟”之间的联系等方面来研究在怀孕、生育中死亡的女性妖怪·产女（うぶめ）（“Imagining the Spirits of Deceased Pregnant Women: An Analysis of Illustrations of Ubume in Early Modern Japan,” YASUI Manami JAPAN REVIEW: Journal of the International Research Center for Japanese Studies, vol.35, 2021， URL <a href="http://doi.org/10.15055/00007603">http://doi.org/10.15055/00007603</a>）。今后，可以以东南亚为中心，扩大地域对象进行比较研究。并且在女性妖怪妊娠、生育这些方面，可以通过介入性别差异的视角，以妖怪和身体为研究课题，可能会呈现更加丰富多彩的研究成果吧。　</p>
+<p align="center">　　<strong>　作为知识合集的怪异——妖怪文化研究</strong></p>
+<p align="right">　　<strong>木场贵俊著</strong></p>
+<p align="right">　　<strong>李江龙译</strong></p>
+<p align="left">　　<strong>本草学与怪异</strong></p>
+<p align="justify">　　我致力于日本近世（16世纪中期至19世纪中期）关于怪异·妖怪的文化史研究，专注于儒学、本草学等学问中有关怪异的言论。儒学和本草学都是起源于中国的学问，在正名和格物致知等思想方面双方的亲和度很高。这二者都被日本所接受，逐渐变化并发展壮大。在这个过程中，怪异如何被人们理解这一点令我很感兴趣。我们来看看日本的本草学和怪异的关系。</p>
+<p align="justify">　　近世日本的本草学发展始于李时珍《本草纲目》的传来。1596年刊印的《本草纲目》最早于1604年传入日本。最先关注到这本书的是儒学者林罗山（1583—1657）。他后来成为德川政权御用学者并创作了和汉名称对照辞典《多识篇》（1612），后刊印出版（1631）。</p>
+<p align="justify">　　关于日本本草学巨大跨时代标志的《本草纲目》，值得注意的是，在第51卷兽部里，不仅有《寓类》，还有《怪类》，关于怪异的条目被列出不少。比如在兽部《怪类》中，“魍魉”“彭侯”“封”被列出；在《寓类》“狒狒”的集解中， “山都”“山鬼”也都作为“山怪”榜上有名。林罗山的《多识篇》中则对照出这些怪异汉名相应的和名。如“魍魉”是“KIMOKUIONI”（食肝鬼），“彭侯”是“KODAMA”（木灵）。</p>
+<p align="justify">　　而且兽部之流，都是被当做（大多为可见的）实物来理解这一点是本草学中怪异的重要之处。总之，本草学中的怪异指“怪物”，即便在日本的本草学中也是如此。</p>
+<p align="justify">　　带着这种怪异的理解，日本的本草学走上独自发展的道路。贝原益轩（1630—1714）的《大和本草》（1709年刊）是他基于对《本草纲目》的疑义并结合日本的风土而写就的本草书（贝原益轩同时也是儒学者）。只不过在卷的编成和品目排列方面仍旧沿袭了《本草纲目》。虽然第16卷兽类的“河童”和“火车”（魍魉）也承袭了《本草纲目》兽部《怪类》，但是其内容中记载了日本民俗社会的共识。</p>
+<p align="justify">　　之后在寺岛良安的《和汉三才图会》（1712年序）第40卷兽部怪类中收录了很多，如“山都”（见越入道）、“川太郎”（河童）等。这些也都是把怪异当做动物来理解的。</p>
+<p align="justify">　　18世纪后期的本草学者小野兰山（1729—1810）在京都开办学问塾“众芳轩”，后于江户的医学馆授课（内容后来作为《本草纲目启蒙》刊印）。授课的特征之一便是关注国内外的通称（方言）。比如，关于《本草纲目》第42卷虫部湿生类的“水虎”（当时认为其相当于日本的河童），便列举了“KAPPA”（江户）、“GAWATARO”（畿内·九州）、“ENKO”（伊予·备后等地）等方言。而这些信息大多来自小野兰山门下的众多弟子。</p>
+<p align="justify">　　日本的本草学以《本草纲目》为基础，收集日本国内外的信息，取得了独立的发展。基于此，原本为药学的本草学涉及了动物学、植物学、矿物学、语言学、民俗学等各个领域，呈现出综合学问的样态。其背景则来自众多门下弟子和相关人员提供的信息，通过将之汇聚形成一门学问。</p>
+<p align="justify">　　<strong>民俗学的信息收集</strong></p>
+<p align="justify">　　上文提到日本的本草学以学者为顶点，通过汇总门下相关人士提供的信息而发展起来。响应这些学者的号召，各地关心学问的人提供信息进而促使其发展成学问。可以说，近代日本的民俗学的形成过程亦是如此。民俗学的创始人柳田国男通过《乡土研究》《民间传承》等杂志媒体发起广泛征集民俗词汇的活动。其中就有“称作妖怪之类的，除神佛以外人们害怕的东西（《乡土研究》通告）”这种与妖怪相关的词汇征集。这些词汇之后作为成果呈现于《民间传承》的连载“妖怪名录”（1938—1939）上，后来的《妖怪谈义》（1956）也有收录。</p>
+<p align="justify">　　各地提供妖怪有关民俗词汇的人大多为非专业人士，感召于这个活动的非专业人士们通过提供信息而成为传播者。柳田国男将目光投向明治时期文艺杂志上的读者投稿，针对口承文艺提出“‘群体即作者，具体的作者只不过是这些群体智慧的代表’这一动向由古至今，连绵不绝”（《口承文艺考史考》1947年）。乍看之下，被视为文化接受者的大众，也会成为自主的传播者。另外，我们也能从有关妖怪的信息收集纵向地看出这一动态的侧面（关于动态的大众文化，参照国际日本文化研究中心的大众文化研究项目《日本大众文化史》，KADOKAWA，2020年）。</p>
+<p align="justify">　　<strong>作为知识合集的怪异·妖怪文化研究</strong></p>
+<p align="justify">　　到了21世纪，日本的怪异·妖怪文化研究可谓百花齐放。小松和彦从1998年开始在国际日本文化中心举办共同研究会。以此为发端，“东亚怪异学会”“怪异怪谈研究会”和“异类的会”等研究会相继成立。</p>
+<p align="justify">　　另外，那些不隶属任何专业研究机构、不从事研究工作的人们的表现也不可忽视。他们凭着对怪异·妖怪文化的喜爱而自发地展开活动。如图，“妖怪爱好会理想之乡”（1983年至今）以“漫画市场”为代表，主要在同人志展销会上开展同好会活动。到了21世纪，活动阵地转移到网络世界，将各地的妖怪爱好者们紧密地联系在一起。</p>
+<p align="justify">　　他们的活动在怪异·妖怪文化研究中留下了重要的成果。比如在同人志发表妖怪画的东云骑人，他的插画出现在美国民俗学者迈克尔·迪伦·福斯特（Michael Dylan Foster）的《妖怪：日本民俗中的神秘生物》（加利福尼亚大学出版社，2015年）中，从视觉上向海外读者展示日本的妖怪。</p>
+<p align="justify">　　此外，朝里树的《日本现代怪异事典》（笠间书院，2018年）以网上售卖的同人志为基础创作而成，虽然是事典却异常受欢迎。</p>
+<p align="justify">　　居住在奈良县的木下昌美实地考察当地流传的妖怪传说和怪谈，每月通过电子报刊《奈良妖怪新闻》发布研究成果，累积到一定量之后出版书籍。西日本化物·妖怪同好会《怪魅型》则是居住在西日本的人们所编写的与妖怪文化相关的研究活动报告书。另外，东日本的妖怪爱好家们也制作发行了《俵形（TAWARAGATA）》和后续本《猿玉（MASHIRADAMA）》。关于特定的妖怪，麻野嘉史的《新版维调查记录》（2017）仔细考察了乌克兰、俄罗斯的妖怪维（Вий）的生成以及在日本的发展。其他还有爱知妖怪保存会的《爱知妖怪事典》（2016）等，汇集了各地妖怪传说的妖怪事典，由有志之士编纂并在网上发售。</p>
+<p align="center">　　<img style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px" alt="" oldsrc="W020230411553876788684.jpg" src="./W020230411553876788684.jpg" /></p>
+<p align="center">　　<font color="#0000ff">笔者持有的一部分怪异·妖怪相关的同人志</font></p>
+<p align="justify">　　从这类研究活动中我们可以学到的东西有很多。原本研究就不存在专业与非专业之分。在关注各式各样的研究活动的同时，带着对怪异·妖怪文化研究的殷切盼望，我自己也想略尽绵薄之力。</p>
+<p align="left">　　（本文注释内容略）　　</p>
+<p align="right">　　责任编辑：舒建军 张南茜</p></div>
+                
+            </div>
+            <div class="content_zz">
+                转载请注明来源：<strong>中国社会科学网</strong>（责编：陈静）
+            </div>
+            <!-- 二维码 -->
+            <div class="qrcodeCanvas_wrap">
+                <div class="qrcodeCanvas"></div>
+                <p>扫码在手机上查看</p>
+            </div>
+            <div class="warp_center_links clear">
+    <div class="view">
+        <div class="sk_title_02">
+            <span>社科推荐</span>
+        </div>
+        <ul>
+            
+            <li><a href="https://www.cssn.cn/skgz/202410/t20241011_5790125.shtml" target="_blank">跨学科聚焦人工智能多领域应用</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202609/t20260929_6071428.shtml" target="_blank">中国社会科学院中非研究中心派驻人员培训班开班</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202609/t20260928_6071155.shtml" target="_blank">践行“三项共识” 大力提升对策研究质量和水平</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202609/t20260930_6071472.shtml" target="_blank">让英烈记忆在数字时代焕发永恒光芒</a></li>
+            
+            <li><a href="https://www.cssn.cn/skgz/bwyc/202609/t20260930_6071465.shtml" target="_blank">以正确史观书写新疆历史</a></li>
+            
+        </ul>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<div class="fiexd_title_wrap">
+    <div class="fiexd_title">
+        <span class="fiexd_title_text"></span>
+    </div>
+</div>
+<script>
+    // 二维码
+    $('.qrcodeCanvas').qrcode({
+        text: window.location.href
+    });
+
+    var isPC = IsPC();
+    if (isPC) {
+        $('.qrcodeCanvas').find('canvas').eq(0).css({
+            'width': '20%',
+            'height': '20%',
+            'margin-left': '40%'
+        })
+    } else {
+        $('.qrcodeCanvas').find('canvas').eq(0).css({
+            'width': '50%',
+            'height': '50%',
+            'margin-left': '25%'
+        })
+    }
+
+    var navWrapH = $('.nav_wrap').outerHeight()
+    var crumbsH = $('.sk_crumbs').outerHeight()
+    var warpCenterH = parseInt( $('.warp_center_content').css('padding-top') )
+    // var titleH = $('.content_head').find('h1').eq(0).outerHeight()
+
+    var headHeight = navWrapH + crumbsH + warpCenterH
+
+    $('.fiexd_title_text').text($('.content_head').find('h1').eq(0).text())
+    // $('.fiexd_subTitle_text').text($('.content_head').find('h2').eq(0).text())
+    // $('.fiexd_title_wrap').css('top', navWrapH)
+    // console.log( 'headHeight:', headHeight )
+
+    // console.log(warpCenterH)
+    $(window).on('scroll', function() {
+
+        if ( $(window).scrollTop() > headHeight ) {
+
+            // $('.fiexd_title_wrap').show().stop().animate({'top': navWrapH},500)
+
+            $('.fiexd_title_wrap').show().css('top', navWrapH)
+
+        } else {
+            //     $('.fiexd_title_wrap').stop().animate({'top': 0} ,500, function() {
+            //         $(this).hide()
+            //     })
+
+            $('.fiexd_title_wrap').css({
+                'top': -navWrapH-10
+            })
+            // console.log( $(window).scrollTop() )
+        }
+    })
+</script>
+<div class="sk_footer sk_footer_white">
+    <div class="links">
+    <a href="/gywm/" target="_blank" ignoreapd="true">关于我们</a>
+    <a href="/ggfw/" target="_blank" ignoreapd="true">广告服务</a>
+    <a href="/wzsm/" target="_blank" ignoreapd="true">网站声明</a>
+    <a href="/wzjc/" target="_blank" ignoreapd="true">网站纠错</a>
+    <a href="/lxwm/" target="_blank" ignoreapd="true">联系我们</a>
+</div>
+<div class="icp">
+    <span>举报电话：010-85341520</span>
+    <span>举报邮箱：zgshkxw@cass.org.cn</span>
+    <span>互联网新闻信息服务许可证：10120220003</span>
+    <span><a target="_blank" rel="noopener noreferrer" href="https://beian.miit.gov.cn/" ignoreapd="true">京ICP备11013869号</a></span>
+    <span><a target="_blank" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030146" ignoreapd="true">京公网安备11010502030146号</a></span>
+</div>
+<div class="icp icp_sscp">
+    <span class="sk_sscp_logo"><img src="/images/sk_logo_sscp.png" alt="" /></span>
+    <span>中国社会科学杂志社版权所有，未经书面授权禁止使用</span>
+    <span>Copyright &copy; 2011-2026 by www.cssn.cn all rights reserved</span>
+
+    <div class="knet">
+        <script src="https://kxlogo.knet.cn/seallogo.dll?sn=a13101211010042869jlua000000&size=3"></script>
+    </div>
+
+</div>
+<div class="rightBar mobileNone">
+    <a href="javascript:void(0);" class="backTop"></a>
+</div>
+<!--天润代码统计-->
+<div style="display:none">
+<script src="/images/cssn_webdig.js" language="javascript" type="text/javascript"></script>
+</div>
+<!-- cssn.cn Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9ac7f8383ed02699dcafe4c2cba61e1f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+<script>
+    var htm = $(".content_keyword").html();
+    console.log(htm)
+    htm = htm.replace(/;/ig, "</span><span>");
+    console.log(htm)
+    $(".content_keyword").html(htm);
+</script>
+</body>
+</html>

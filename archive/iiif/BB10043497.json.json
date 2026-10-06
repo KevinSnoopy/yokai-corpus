@@ -1,0 +1,135 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497.json",
+  "@type": "sc:Manifest",
+  "label": "田原藤太秀郷傳 3巻 Tawara tōta hidesato den 3kan",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "BB10043497"
+    },
+    {
+      "label": "title",
+      "value": "田原藤太秀郷傳 3巻 Tawara tōta hidesato den 3kan"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "label": "creator",
+      "value": "英一蝶 Hanabusa Icchō"
+    },
+    {
+      "label": "publisher",
+      "value": "Unknown"
+    },
+    {
+      "label": "date",
+      "value": "Unknown"
+    },
+    {
+      "label": "size",
+      "value": "上:33×12m65cm, 中:33×12m51cm, 下:33×10m13cm"
+    }
+  ],
+  "attribution": "国際日本文化研究センター Nichibunken",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/BB10043497",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "上",
+          "height": 3249,
+          "width": 106820,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/BB10043497/004409827_00.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3249,
+                "width": 106820,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/BB10043497/004409827_00.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/canvas_1.json"
+            }
+          ]
+        },
+		
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/canvas_2.json",
+          "@type": "sc:Canvas",
+          "label": "中",
+          "height": 3120,
+          "width": 105211,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/2/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/BB10043497/004409835_00.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3120,
+                "width": 105211,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/BB10043497/004409835_00.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/canvas_2.json"
+            }
+          ]
+        },
+		
+	    {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/canvas_3.json",
+          "@type": "sc:Canvas",
+          "label": "下",
+          "height": 2995,
+          "width": 85951,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/3/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/BB10043497/004409843_00.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2995,
+                "width": 85951,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/BB10043497/004409843_00.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10043497/1/canvas_3.json"
+            }
+          ]
+        }
+
+	  ]
+    }
+  ]
+}

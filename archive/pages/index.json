@@ -1,0 +1,739 @@
+[
+ {
+  "url": "http://www.pref.kagoshima.jp/sangyo-rodo/kanko-tokusan/kanko/kankotokei/index.html",
+  "file": "96c42798270d5ed14d2487541b9930d4d7711502.html",
+  "status": 200,
+  "bytes": 20339,
+  "sha256": "b339770d8b6d3cc6f89685e2c099d7e7e6eaa5c99bd310f544de48244a79a351",
+  "final_url": "http://www.pref.kagoshima.jp/sangyo-rodo/kanko-tokusan/kanko/kankotokei/index.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "http://www.sakaiminato.com/site/page/event/irikomi2026/file01.pdf",
+  "file": "926db393ac72fb91f79f0cf39af8876c44cfd3b2.html",
+  "status": 200,
+  "bytes": 2048267,
+  "sha256": "6da65e8555750e925f3fb7dc4ba5f1927e4429fb09b8c74f4db81b553450265b",
+  "final_url": "http://www.sakaiminato.com/site/page/event/irikomi2026/file01.pdf",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://artexhibition.jp/topics/news/20260619-AEJ2929995",
+  "file": "9134ca8fc47033d1555a26ae994958523f192c80.html",
+  "status": 200,
+  "bytes": 87200,
+  "sha256": "e69f139660c286e92cdf19f6cb441b5b6322244236d8a07e777d41aee6a44003",
+  "final_url": "https://artexhibition.jp/topics/news/20260619-AEJ2929995/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://ci.nii.ac.jp/ncid/BB16174602",
+  "file": "a6ab5c625b877a1a59f2e2eae72c02abfeefc0c3.html",
+  "status": null,
+  "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Kaii-Yōkai_Denshō_Database",
+  "file": "c340bd5eced0d7d08b22eb0f9922ab6e51a1ee88.html",
+  "status": 200,
+  "bytes": 116854,
+  "sha256": "6c536543694ceb09fabe88bf99f5ac4f5b896f4391b8a1490b92312e9d318208",
+  "final_url": "https://en.wikipedia.org/wiki/Kaii-Y%C5%8Dkai_Densh%C5%8D_Database",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://fukusakikankou.jp/en/the-yokai-of-tsujikawayama-park",
+  "file": "76500d1303e03b187bef7150ca9a5cd9c5607fc5.html",
+  "status": 200,
+  "bytes": 115400,
+  "sha256": "1dda11182ce4f9d1886d37e88b8103e43f11368cca6c1055aae5941a7d8d1b15",
+  "final_url": "https://fukusakikankou.jp/en/the-yokai-of-tsujikawayama-park/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://fukusakikankou.jp/yokaibench",
+  "file": "5bdc142c2b5831d0fe9c62b4ea9c1cd50a5fb9e1.html",
+  "status": 200,
+  "bytes": 129480,
+  "sha256": "9b2ac5cab79a27b695d4fb5c24f0d44a2f61bc7df3d43f9746d0219826ca3b36",
+  "final_url": "https://fukusakikankou.jp/yokaibench/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://gofukuoka.jp/events/detail/89d34a1a-bb9e-41cc-a808-84a1f4fb7444",
+  "file": "74dd1c63a239bbb791fc1e334ea5241d44154a7c.html",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://ja.wikipedia.org/w/index.php?title=妖怪&action=raw",
+  "file": "696b6e0793dc30bedbfaecfff64986067e01e9b5.html",
+  "status": 200,
+  "bytes": 58537,
+  "sha256": "ab5921e037c64dbc5f76efc0dea07e931ceeba562b9d6a5bbd0a04e251174273",
+  "final_url": "https://ja.wikipedia.org/w/index.php?title=%E5%A6%96%E6%80%AA&action=raw",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://ja.wikipedia.org/wiki/妖怪",
+  "file": "2ef4c1b4bd60b07a3247004c83fbcc7cc36cd06c.html",
+  "status": 200,
+  "bytes": 429630,
+  "sha256": "018e14e3d3d7926e552829a224bb715b1aff88db1de40f1d82226b1b9e2f0987",
+  "final_url": "https://ja.wikipedia.org/wiki/%E5%A6%96%E6%80%AA",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://ja.wikipedia.org/wiki/妖怪談義",
+  "file": "65a7bfb5ce9a17e5469960322186072932666a8b.html",
+  "status": 200,
+  "bytes": 193247,
+  "sha256": "e7d47e276e74077895d5066bea117b8275ab132be0664cb745b61cde1753677f",
+  "final_url": "https://ja.wikipedia.org/wiki/%E5%A6%96%E6%80%AA%E8%AB%87%E7%BE%A9",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://ja.wikipedia.org/wiki/柳田國男",
+  "file": "62025d8d85189dbcf22747d187cb9e904c1ab83d.html",
+  "status": 200,
+  "bytes": 391312,
+  "sha256": "df345bc6a875bdace020e4a8cd7842e0887f39ea071a27fd626d2d34933c0c73",
+  "final_url": "https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%B0%E5%9C%8B%E7%94%B7",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://kappa-onsen.jimdofree.com/",
+  "file": "17babe94580486b8549d955484d27492ee0f0ae5.html",
+  "status": 200,
+  "bytes": 80480,
+  "sha256": "36aa8510be97a01af9ea343a1b2bb1ff3282977836fa28e679c9b5b3b76095fb",
+  "final_url": "https://kappa-onsen.jimdofree.com/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://kochi-rekimin.jp/exhibits/76.html",
+  "file": "e53ddefe285af819d1d207ef2c8f690983a7f256.html",
+  "status": 200,
+  "bytes": 33037,
+  "sha256": "6b07618cf34866eba99beafc6f6d97390b358c2f46b0bef3e3484baf3a82f4f8",
+  "final_url": "https://kochi-rekimin.jp/exhibits/76.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://kotowaza.jitenon.jp/",
+  "file": "c8dec0cbc4d6e9dd6864799726ce2b1f1475d56f.html",
+  "status": 200,
+  "bytes": 31548,
+  "sha256": "ff36cc23e96bd258b9b9cfd50253abb40a374c8e388333f68e28b79bc6d2d59b",
+  "final_url": "https://kotowaza.jitenon.jp/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://kotowaza.jitenon.jp/kanji/鬼/contain/",
+  "file": "195b18b128b2d751177e5ffc66da103030d460a1.html",
+  "status": 200,
+  "bytes": 38868,
+  "sha256": "c3a707f3a61a560834912d60d7ad45b27735f1ab1b0bf3329bb6fe9f6b6a90f9",
+  "final_url": "https://kotowaza.jitenon.jp/kanji/%E9%AC%BC/contain/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://kumamoto.guide/spots/search",
+  "file": "bf7312c57ce773ea66dc1155ac8ae51b3380eb67.html",
+  "status": 200,
+  "bytes": 83812,
+  "sha256": "a384d108a1818ac11da6d3e11a71a46d4eb86232358eb9a8578e24147b23d092",
+  "final_url": "https://kumamoto.guide/spots/search",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://lapis.nichibun.ac.jp/ema/List",
+  "file": "880431244d35ff961560b49a81d0b2697b384145.html",
+  "status": 200,
+  "bytes": 243978,
+  "sha256": "4795cf61995407b15e6c5a716302b142667b8ee739906723a3fe4d4f9deb555f",
+  "final_url": "https://lapis.nichibun.ac.jp/ema/List",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://meipam.net",
+  "file": "ccca89774c1fb60924b4b1e1bf1a2522c92fbaa3.html",
+  "status": 200,
+  "bytes": 57158,
+  "sha256": "7e47799fc9d5a685e2c4aac1128297a9e2803389dbfb24c4dfd66edfc4fc2877",
+  "final_url": "https://meipam.net",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://miyoshi-mononoke.jp/introduction/",
+  "file": "076e4f18af8c31437d8d3a0b17fc6a2765dac119.html",
+  "status": 200,
+  "bytes": 40086,
+  "sha256": "f7d8fa9080f8ec4ddf5ec87764bbc7a5a7823739e91448f75aa9f5972056a45a",
+  "final_url": "https://miyoshi-mononoke.jp/introduction/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://mizuki.sakaiminato.net/",
+  "file": "153ae19d8ba241c61f6e83a29ef4ff26e2f2a9f8.html",
+  "status": 200,
+  "bytes": 16867,
+  "sha256": "92e9e60a60bc769cc9ee7338d0a5327c9de599132380de2a2a92c19d0ce3cc28",
+  "final_url": "https://mizuki.sakaiminato.net/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://museum.bunmori.tokushima.jp/exhibitions.html",
+  "file": "aee476a98997c9bdf3a347b3332cf7bf7cac3614.html",
+  "status": 200,
+  "bytes": 11898,
+  "sha256": "bdd7230b93a325d8c8e1ed1d5f8e32dca162fa2f52a6d9bd33980ef9040ae66c",
+  "final_url": "https://museum.bunmori.tokushima.jp/exhibitions.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://museum.city.fukuoka.jp/exhibition/special/2026/yurei-yokai-collection",
+  "file": "f6def6dbde7c03f97036c05a63a56b9131d10083.html",
+  "status": 200,
+  "bytes": 56873,
+  "sha256": "51fdc9f234fa6c1f5db03920d9691da29df8fc1f0982669f98b4800d9fb49a8d",
+  "final_url": "https://museum.city.fukuoka.jp/exhibition/special/2026/yurei-yokai-collection/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025516247",
+  "file": "7e9faa0e556c78bcf13cfec317781ec921facf8c.html",
+  "status": 200,
+  "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+  "fetched": "2026-10-06(curl补抓)",
+  "bytes": 586541,
+  "sha256": "08f3543fa6accb84ffa0d48289f0d9bad6064f2d1611b85178b3ef14997a6db1"
+ },
+ {
+  "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026382112",
+  "file": "bca959cb211a1f5eaf8be292c3a1dd30d584af97.html",
+  "status": 200,
+  "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+  "fetched": "2026-10-06(curl补抓)",
+  "bytes": 568557,
+  "sha256": "5c360ff399fedc92f752d97287499b15842abf1f111bc30a2a440851ba1b59f6"
+ },
+ {
+  "url": "https://okayama-kenbi.info/",
+  "file": "bfd8103d5b641f9f7b84f09b41ace46c273c5a2d.html",
+  "status": 200,
+  "bytes": 113311,
+  "sha256": "b24a2d211d4fe9db4817f0aa64889f3a14eea5271bf9c6534a8c972242b4fb4a",
+  "final_url": "https://www.okayama-kenbi.info/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://prtimes.jp/main/html/rd/p/000000216.000053572.html",
+  "file": "eb1d048084828cb3f149c55d32b7047b3078f216.html",
+  "status": 200,
+  "bytes": 265328,
+  "sha256": "0fbde5111816f1477d31b6f193773017bad4bfc1559485153ca1e8437e0bff98",
+  "final_url": "https://prtimes.jp/main/html/rd/p/000000216.000053572.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://rekihaku.pref.hyogo.lg.jp/exhibition/20625",
+  "file": "589ff5f064527955ac61656e1adf59a994dabde2.html",
+  "status": 200,
+  "bytes": 72172,
+  "sha256": "895c96e34f6b0ea8323e36fff27ae1c8a22bca140839ade75944eb3de7170314",
+  "final_url": "https://rekihaku.pref.hyogo.lg.jp/exhibition/20625/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://sekiei.nichibun.ac.jp/YoukaiDB3/index.html",
+  "file": "d5b55386801be9cb5395449c19a6a8672dd60e57.html",
+  "status": 200,
+  "bytes": 6404,
+  "sha256": "b460334be07d49ea1a7e1b45171c2dad49ebe8a7ff90bf8ca6eac2dac667f937",
+  "final_url": "https://sekiei.nichibun.ac.jp/YoukaiDB3/index.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://sekiei.nichibun.ac.jp/cgi-bin/YoukaiDB3/msearch/msearch.cgi?query=河童",
+  "file": "3faeabb9a244e7681015e42ff8a2bcc318a54622.html",
+  "status": 200,
+  "bytes": 62570,
+  "sha256": "cd98338a66a3a2c85ce545d34928fd5f47c7f4c05a441c0e6d54feab220bfa36",
+  "final_url": "https://sekiei.nichibun.ac.jp/cgi-bin/YoukaiDB3/msearch/msearch.cgi?query=%E6%B2%B3%E7%AB%A5",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://tonojikan.jp/",
+  "file": "5984a7d2da174f8b89ee9e1d4578a041b8be98cc.html",
+  "status": 200,
+  "bytes": 265098,
+  "sha256": "ebf02e4cbc2f53774b660d6bf38e47acd05de4a4645a1c5f6bb92e6371dc3f2b",
+  "final_url": "https://tonojikan.jp/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://tonojikan.jp/tourism/denshoen",
+  "file": "bee548f623adff1542eff0b06180709ec886997e.html",
+  "status": 200,
+  "bytes": 222762,
+  "sha256": "2be82c7937892b05f78003c4e336525cfd074929d665e3afc85e99209ef8dfb7",
+  "final_url": "https://tonojikan.jp/tourism/denshoen/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://tonojikan.jp/tourism/kappabuchi-pool",
+  "file": "0b359aae86c22ec2ce41d32e9e1abd9c23635733.html",
+  "status": 200,
+  "bytes": 226869,
+  "sha256": "d0868dd8db4712cc5079eda939a886080819c48cc7815ad5b6a21dde3627affd",
+  "final_url": "https://tonojikan.jp/tourism/kappabuchi-pool/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://tonojikan.jp/tourism/tono-municipal-museum",
+  "file": "869fe6ee109ac7b9ce697cd951b90251d0c245a5.html",
+  "status": 200,
+  "bytes": 209381,
+  "sha256": "7e53734412811085dd0af5d4483d0d6bd630e0bf0a312abb13f8f1b97d986d36",
+  "final_url": "https://tonojikan.jp/tourism/tono-municipal-museum/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://tottori-moa.jp/about/public-relations/",
+  "file": "a07928c2efaf87050e2dd6cf950aad631c24d79b.html",
+  "status": 200,
+  "bytes": 181850,
+  "sha256": "5e132e26753a54afba5dea2b5d0bc626644e63af9e63aa0522c307ebd051dd8a",
+  "final_url": "https://tottori-moa.jp/about/public-relations/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://toyo-bunko.or.jp/museum-exhibition/2631",
+  "file": "3932562592151c3348d2693cfd259c31d9bc8935.html",
+  "status": 200,
+  "bytes": 80920,
+  "sha256": "3afdfb4702ec2e9db33ab55bcb2c8f5eff0a8f797cf32de3dd7b2f56e372e97a",
+  "final_url": "https://toyo-bunko.or.jp/museum-exhibition/2631/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://toyo-bunko.or.jp/wp-content/uploads/2026/04/Scary-Books_list.pdf",
+  "file": "0162c92410015d749a77f41386bccaada13de780.html",
+  "status": 200,
+  "bytes": 780461,
+  "sha256": "d207d2e5dcb12b13c09e29ab0b2d4e318601d7878d29c61097d0d00f50a075d1",
+  "final_url": "https://toyo-bunko.or.jp/wp-content/uploads/2026/04/Scary-Books_list.pdf",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.capcom.co.jp/ir/english/news/html/e260409.html",
+  "file": "d3080ffdf3408837e06c8eb885fd8ca1f4a0479e.html",
+  "status": 200,
+  "bytes": 81134,
+  "sha256": "d162631d91a42096676d391c94fe7eea92e5af6b127e7c71f9a5c97d5ee599db",
+  "final_url": "https://www.capcom.co.jp/ir/english/news/html/e260409.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.city.fukuchiyama.lg.jp/onihaku/",
+  "file": "cea7f9dd81112810686e582fe5a0454516d22564.html",
+  "status": 200,
+  "bytes": 35989,
+  "sha256": "f8c2f413e471ae0630915370de156dabd16c24578c263f0663c546152bfe0fb2",
+  "final_url": "https://www.city.fukuchiyama.lg.jp/onihaku/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.city.fukuchiyama.lg.jp/soshiki/65/1083.html",
+  "file": "0cd58bf69e9d35de47308aea1b242a9c3eba23e8.html",
+  "status": 200,
+  "bytes": 22249,
+  "sha256": "9a101907017d48223be50556ce9754e0d598c4cb276b61dfa00f7403fd7dabad",
+  "final_url": "https://www.city.fukuchiyama.lg.jp/soshiki/65/1083.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.city.okayama.jp/okayama-city-museum",
+  "file": "6f413863f52a2690d8ea04c38b01608e5b3727c0.html",
+  "status": 200,
+  "bytes": 38502,
+  "sha256": "846a34513732e91e09a43328c805082cb2e77b99d5709b2c7e559724ffd6fe1d",
+  "final_url": "https://www.city.okayama.jp/okayama-city-museum/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.cssn.cn/dkzgxp/zgxp_gjshkxzzzwb/gjshkxzz202204/202304/t20230411_5619289.shtml",
+  "file": "a32e01380c3a3dd9d3fb76f4fb1dfd2ff325a935.html",
+  "status": 200,
+  "bytes": 70456,
+  "sha256": "da1d5ec92267f6478ce43bd22f27595942fa70fa3f2467d89adc874f0f158167",
+  "final_url": "https://www.cssn.cn/dkzgxp/zgxp_gjshkxzzzwb/gjshkxzz202204/202304/t20230411_5619289.shtml",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.db.nccjapan.net/resource/21",
+  "file": "3f420715d6ee7066253877127822ec7f027649d9.html",
+  "status": 200,
+  "bytes": 4264,
+  "sha256": "06fbab554951ade2db399ced3a4bef95c07013b9bce90a8d4665674b3b81fc2a",
+  "final_url": "https://www.db.nccjapan.net/resource/21",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.enjoytokyo.jp/event/list/pref36/its06/",
+  "file": "a3e8d926da30269735192c5299ff777e1600880a.html",
+  "status": 200,
+  "bytes": 169970,
+  "sha256": "0c7fb0ab22a72c200a0e6c567c5d53152ac03c29b5cb8afd266202ab13200014",
+  "final_url": "https://www.enjoytokyo.jp/event/list/pref36/its06/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.fukuokatower.co.jp/event/archives/272",
+  "file": "4652dacda4c60c429e09d4bb06b916d3f804ee99.html",
+  "status": 200,
+  "bytes": 35108,
+  "sha256": "dbfd87b0b605610b43c3e2d409292259f5f148bfbd6dfd8857d707141822033e",
+  "final_url": "https://www.fukuokatower.co.jp/event/archives/272",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.i-kahaku.jp/",
+  "file": "6aade6764e04ff4dc111af5db2f6fc826d272421.html",
+  "status": null,
+  "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.iyokannet.jp/",
+  "file": "8e8fa24cfe0864ef013e45edb9584f83dc4dfdbf.html",
+  "status": 200,
+  "bytes": 65424,
+  "sha256": "4996e5d9294e6fa8f8f0b0ddf73b3451f94b6f0641ecd962a894907640e6715b",
+  "final_url": "https://www.iyokannet.jp/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.kanko-miyazaki.jp/spot",
+  "file": "03a501813b6025310e33f13e88855e9ffe6f647f.html",
+  "status": 200,
+  "bytes": 965832,
+  "sha256": "bb05f415e75cd5408db009f8816eac9457282ec1cc21c7b158f03d81bcdfba7f",
+  "final_url": "https://www.kanko-miyazaki.jp/spot",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.kankou-shimane.com/mag/1563.html",
+  "file": "f1ddcb6410a4ad201a66473917b7899ecb80c3b0.html",
+  "status": 200,
+  "bytes": 87139,
+  "sha256": "31c89475287e64d23c8ce987df45cd8eee576205c27600c06f5eeb0ea31d3d0d",
+  "final_url": "https://www.kankou-shimane.com/mag/1563.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.kmuseum.pref.kagawa.lg.jp/exhibition/schedule",
+  "file": "68fa8ca0516a4856e239d230b0a0b8724a90ab56.html",
+  "status": 200,
+  "bytes": 137783,
+  "sha256": "77090d2cca92df6846dc4d0827ec5d58ada64c43ca8c192667e8e6a2ac98fc6d",
+  "final_url": "https://www.kmuseum.pref.kagawa.lg.jp/exhibition/schedule/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.kyototourism.org/zh-hant/column/23514",
+  "file": "8d1bc3be25e052919e88407b3273c45714532779.html",
+  "status": 200,
+  "bytes": 83383,
+  "sha256": "cb1e0be17f69d1cf20814ac504d4b0c0d17a25a19c1d3bc24a620ae7bdd83c38",
+  "final_url": "https://www.kyototourism.org/zh-hant/column/23514/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.mizu.gr.jp/kikanshi/no53/02.html",
+  "file": "3801e13f101716cd5e53351b2d8d616bf2af1680.html",
+  "status": 200,
+  "bytes": 45375,
+  "sha256": "d4d0398ec81e3517d2931d7e09fa8f40b0bcfd4781ca8e16a5a115d239988ad1",
+  "final_url": "https://www.mizu.gr.jp/kikanshi/no53/02.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/0010006.html",
+  "file": "4605854021f44c197b012e567ae8e52551f9a29a.html",
+  "status": 200,
+  "bytes": 18323,
+  "sha256": "9c96933ec80e6266d1aa19667341e279f1d70f7b77de5a21e5eac92f7933e326",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/0010006.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/0590130.html",
+  "file": "c6d15f252e01a94e4239bf1b81fbb85cde3d568f.html",
+  "status": 200,
+  "bytes": 18367,
+  "sha256": "2543df3aeb99a3a89c28eb3c41623cb56eeb73e97b1a623b8697046e29f48353",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/0590130.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/0690178.html",
+  "file": "18ce47d8ab720907bd08df6bf3af4cd5de0c6d6b.html",
+  "status": 200,
+  "bytes": 18016,
+  "sha256": "0bbb3f799a5f67f173220e2680e0b76fe5585335f85151e6ab01d44cfd10e60f",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/0690178.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/0690181.html",
+  "file": "bf947e0b18a0ba2fb08f99c7c1937706e6fa12c6.html",
+  "status": 200,
+  "bytes": 18101,
+  "sha256": "54d3b7dcd608d8121f500fc8a20360a65beba7891245345851ec34ca6563d83b",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/0690181.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/0700375.html",
+  "file": "6520bb3e46dec3fd2b3344ad869e727f5b3655b6.html",
+  "status": 200,
+  "bytes": 18369,
+  "sha256": "e5c759f8f2d349de4febfe1280a90a3995d269b5b58cc266e4b35d35c1b4307d",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/0700375.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/0780104.html",
+  "file": "46e74e995bd6357d1d07f001c1b92cd69eb6726e.html",
+  "status": 200,
+  "bytes": 18240,
+  "sha256": "27fe01371b804e12bfb2427df225eb612159ebb539063ef06a11e929903b74da",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/0780104.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/0920005.html",
+  "file": "3ca527d948a15f32bdf5cbbdf2416b33cf3aab30.html",
+  "status": 200,
+  "bytes": 18151,
+  "sha256": "c0f1f603c018711e00757bfbbff20231f6a1c3ceaf0353a7a5ec84e1f2f6dfd3",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/0920005.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/<编号>.html",
+  "file": "1c97538cd3c442f7100bbb769114721852fb1e1d.html",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/C0220150-000.html",
+  "file": "bd6cf52c581a247070553ec0772dd8fb53f59ba7.html",
+  "status": 200,
+  "bytes": 18620,
+  "sha256": "9045d4843e55b36e384b86a1972f7e90521f7897041f4f64d7c5ac30faca7762",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/C0220150-000.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/C0411051-000.html",
+  "file": "9dea4c71aa34a443b7dd4450b24b4d1e7d2af9ce.html",
+  "status": 200,
+  "bytes": 18817,
+  "sha256": "2b4a54682eac42741f3437614e882c9900252ee059f51bf3ce3209a1efe4ab7b",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/C0411051-000.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiCard/C0411187-000.html",
+  "file": "99cc41cd6d97557f2ac8b0e1dbe4e094ac3a438f.html",
+  "status": 200,
+  "bytes": 18268,
+  "sha256": "d69cfc5270e4057001c06b9b5676f8b1ec3be15769b8ce8658cb68f2731850ab",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiCard/C0411187-000.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiDB3/kousin.html",
+  "file": "8aae41ff0f14b403984a152f91cb974b4aad2263.html",
+  "status": 200,
+  "bytes": 29499,
+  "sha256": "a2d68182a4f9926a1775b4426c1370e428a9c6fe9118483ca7f0ac95328b8b95",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiDB3/kousin.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiDB3/search_advanced.html",
+  "file": "5798788ffe68c9efed5cf0b673ad3d0bb0bf5d45.html",
+  "status": 200,
+  "bytes": 15858,
+  "sha256": "73c0529a9a7c395839078525325400bb853996e0cd173006ff989eb1861d1d5f",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiDB3/search_advanced.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiGazou/index-name.html",
+  "file": "8e6f5a0ba72c63adb23bee317f925145e5a3fb12.html",
+  "status": 200,
+  "bytes": 50256,
+  "sha256": "39e6a30be5a52225834cac8efcb525beb53c5ba3c56c7e0ec1d376ae8433bd72",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiGazou/index-name.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiGazouMenu/",
+  "file": "e0f3d6c934804cee32472bf4c8b71cf95eec5744.html",
+  "status": 200,
+  "bytes": 7398,
+  "sha256": "b0b9e5a1d215dd8a55a4a19c4c0c70276889754e4dce9308b622b91145e6b33c",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiGazouMenu/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiGazouMenu/gaiyou.html",
+  "file": "d5174d4a6c87560725615cd3d599542e7a57826f.html",
+  "status": 200,
+  "bytes": 26846,
+  "sha256": "0ab1ea03559d35861355cc4a4d33b067af9e185dbdf5254557bdfee2ed496951",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiGazouMenu/gaiyou.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiGazouMenu/kousin.html",
+  "file": "b8419f51800b74bc30ed4287b05b494f7a8618ba.html",
+  "status": 200,
+  "bytes": 21569,
+  "sha256": "94ce19d7998050673813395e35402d028639c99ba41c9a920dea65b26ce47a0a",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiGazouMenu/kousin.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/YoukaiGazouMenu/report.html",
+  "file": "1dd51ebf39a7c0c400dd65b78a16d75c32aa6720.html",
+  "status": 200,
+  "bytes": 38114,
+  "sha256": "22de18b47c85a1d5fd93ddb87b05ad087baf6120a381bd36f36893492e660cd4",
+  "final_url": "https://www.nichibun.ac.jp/YoukaiGazouMenu/report.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiGazou/card.cgi?identifier=<id>",
+  "file": "93e06bdccd60c96b25271728fe3f1833abd4bba2.html",
+  "status": 200,
+  "bytes": 11874,
+  "sha256": "e1a95648751a43a91b16a1c7c52552cd690883ca82e1b585a4b3165f3613b762",
+  "final_url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiGazou/card.cgi?identifier=%3Cid%3E",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiGazou/search.cgi?query=NILL&ychar=鬼",
+  "file": "38cc3dffafa83249aaf05dee634211b6bf4b85b1.html",
+  "status": 200,
+  "bytes": 837456,
+  "sha256": "79afac36752002c9fd559057ba63dd76698084675fe098b336ca0606b5f7b112",
+  "final_url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiGazou/search.cgi?query=NILL&ychar=%E9%AC%BC",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.pref.miyazaki.lg.jp/kanko-suishin/kanko/miryoku/201907kankokeikaku.html",
+  "file": "022e048f8db788c476a6d4953bed9453abb0a1b9.html",
+  "status": 200,
+  "bytes": 20165,
+  "sha256": "91409160b74ac204987c430d5a74e88cf5c46e485374a930d56e8c31507f2f0e",
+  "final_url": "https://www.pref.miyazaki.lg.jp/kanko-suishin/kanko/miryoku/201907kankokeikaku.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.pref.tottori.lg.jp/museum/zukushiten",
+  "file": "f9e3cb02eba7adbec9db0827f8583cb3c6e56e80.html",
+  "status": 200,
+  "bytes": 4310,
+  "sha256": "d29b674206ada9213d201844a5ac4156858eac8e19be2ff112b08ac450f20e2e",
+  "final_url": "https://www.pref.tottori.lg.jp/Err/DefaultHttpError.aspx?aspxerrorpath=/dd.aspx",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.town.fukusaki.hyogo.jp/0000002183.html",
+  "file": "fbca7ddde7b2783dce9b136e63ed0ca5c6924b99.html",
+  "status": 200,
+  "bytes": 45045,
+  "sha256": "e88d4102acae8cbe0baf63c694bf81daa6e66dd110eb3cb4ec1e400ce09246c4",
+  "final_url": "https://www.town.fukusaki.hyogo.jp/0000002183.html",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.yamagatadoor.com/mizukishigeru_youkai",
+  "file": "e2483ccf6f999a227fde3ac6ef584b057470348a.html",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://www.yokaiimmersive.com/kagoshima",
+  "file": "f24ef3ad2702fe7310f991379c3120a4c1427fed.html",
+  "status": 200,
+  "bytes": 23213,
+  "sha256": "7e0f31292ad3b15f647dc7e853543202b32cc8c576bdfcb70e1faefad549b01c",
+  "final_url": "https://www.yokaiimmersive.com/kagoshima",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://x.com/yurei_yokai_",
+  "file": "5874e1e84c295bb3c099d69231fb77e0832f881d.html",
+  "status": 200,
+  "bytes": 159388,
+  "sha256": "4a1eb5db730397635b1b4bf08163e315a422bcd9f065cd4417421f003e3d3635",
+  "final_url": "https://x.com/yurei_yokai_",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://yasurakaan.com/burning-talismans/valuable-information/tsukumogamiki",
+  "file": "a383a8b4ad85df32025959117e578370dbb706c9.html",
+  "status": 200,
+  "bytes": 109716,
+  "sha256": "36894fe5dff22784632a5f1f0bf5bb372a14c7b678c72d775f04795e0177d13f",
+  "final_url": "https://yasurakaan.com/burning-talismans/valuable-information/tsukumogamiki/",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://yokai.jp/yokai",
+  "file": "b1832cf392dda77c14eb99f61ed49d4a10e05a42.html",
+  "status": 200,
+  "bytes": 383195,
+  "sha256": "29f20777e89f0ba37e8475e1da948d3002ecce638ed4890b2990837df592086f",
+  "final_url": "https://yokai.jp/yokai",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://zh.wikipedia.org/wiki/Category:妖怪",
+  "file": "c23e709007f65f139283bb251525fdeeaab21b1f.html",
+  "status": 200,
+  "bytes": 65941,
+  "sha256": "67a06cbc5db514875d4a7ac91da1ed87980732549a9c13676744744c27b516c2",
+  "final_url": "https://zh.wikipedia.org/wiki/Category:%E5%A6%96%E6%80%AA",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://zh.wikipedia.org/wiki/Category:日本各都道府縣妖怪",
+  "file": "ccb321326194b42854be5ca56a2484db8c9392f0.html",
+  "status": 200,
+  "bytes": 92150,
+  "sha256": "8e2ef7fc3ae4484a0ae23141e586d7f0f89aec53094daafc8f22217205f2548e",
+  "final_url": "https://zh.wikipedia.org/wiki/Category:%E6%97%A5%E6%9C%AC%E5%90%84%E9%83%BD%E9%81%93%E5%BA%9C%E7%B8%A3%E5%A6%96%E6%80%AA",
+  "fetched": "2026-10-06"
+ },
+ {
+  "url": "https://zh.wikipedia.org/wiki/Category:日本妖怪",
+  "file": "f08dbb46dff0311b032cb7ed57d2d49be1e92ae7.html",
+  "status": 200,
+  "bytes": 79415,
+  "sha256": "530d758cd7ec2715a2afeb20ff0d82ad288fdadbf9a76d56e383ff129991c291",
+  "final_url": "https://zh.wikipedia.org/wiki/Category:%E6%97%A5%E6%9C%AC%E5%A6%96%E6%80%AA",
+  "fetched": "2026-10-06"
+ }
+]

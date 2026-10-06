@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/004481479.json",
+  "@type": "sc:Manifest",
+  "label": "画本西遊記百鬼夜行ノ圖",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "004481479"
+    },
+    {
+      "label": "title",
+      "value": "画本西遊記百鬼夜行ノ圖"
+    },
+    {
+      "label": "creator",
+      "value": "玉園"
+    },
+    {
+      "label": "size",
+      "value": "39×26cm"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  ],
+  "attribution": "国際日本文化研究センター, International Research Center for Japanese Studies",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/BB10052352",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/004481479/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/004481479/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5784,
+          "width": 11836,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/004481479/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/004481479/00448179.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5784,
+                "width": 11836,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/004481479/00448179.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/004481479/1/canvas_1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

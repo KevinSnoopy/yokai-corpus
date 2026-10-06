@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/002471951.json",
+  "@type": "sc:Manifest",
+  "label": "本朝振袖之始素盞鳥尊妖怪降伏之圖",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "002471951"
+    },
+    {
+      "label": "title",
+      "value": "本朝振袖之始素盞鳥尊妖怪降伏之圖"
+    },
+    {
+      "label": "creator",
+      "value": "江戸川北輝"
+    },
+    {
+      "label": "size",
+      "value": "25×37cm"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  ],
+  "attribution": "国際日本文化研究センター, International Research Center for Japanese Studies",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/TW92011391",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/002471951/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/002471951/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 2705,
+          "width": 3746,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/002471951/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/002471951/013_000.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2705,
+                "width": 3746,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/002471951/013_000.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/002471951/1/canvas_1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

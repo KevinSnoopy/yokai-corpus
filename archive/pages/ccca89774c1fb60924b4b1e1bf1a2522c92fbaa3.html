@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-42VK9YKLKQ"></script>
+
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+
+			gtag("js", new Date());
+
+			gtag("config", "G-42VK9YKLKQ");
+		</script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>
+			MeiPAM（メイパム）は小豆島・迷路のまちで妖怪美術館を運営するアートプロジェクト &#8211; MeiPAM
+		</title>
+		<link rel="stylesheet" href="/assets/main.5792f231.css" />
+		<script type="module" src="/assets/main.33181603.js"></script>
+		<meta
+			name="description"
+			content="「迷路のまち」は「エンジェルロード」の近くにある小豆島で人気の観光スポット。ここでは瀬戸内国際芸術祭と連携する地元発のアートプロジェクトMeiPAM（メイパム）が妖怪美術館や妖怪barを展開中。昼も夜も楽しめる非日常の面白い体験を提供しています。アート巡りやナイトタイム観光、暮らすように旅したい人へお勧めの過ごし方をご紹介します。"
+		/>
+		<meta
+			property="og:title"
+			content="MeiPAM（メイパム）は小豆島・迷路のまちで妖怪美術館を運営するアートプロジェクト"
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://meipam.net/assets/images/ogp.png" />
+		<meta property="og:url" content="https://meipam.net/" />
+		<meta
+			property="og:description"
+			content="「迷路のまち」は「エンジェルロード」の近くにある小豆島で人気の観光スポット。ここでは瀬戸内国際芸術祭と連携する地元発のアートプロジェクトMeiPAM（メイパム）が妖怪美術館や妖怪barを展開中。昼も夜も楽しめる非日常の面白い体験を提供しています。アート巡りやナイトタイム観光、暮らすように旅したい人へお勧めの過ごし方をご紹介します。"
+		/>
+		<meta property="og:site_name" content="MeiPAM" />
+		<meta property="og:locale" content="ja_JP" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@Twitter" />
+		<link rel="canonical" href="https://meipam.net/" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+	</head>
+	<body class="relative bg-white text-slate-500" x-data="waypoints">
+		<header
+			class="fixed inset-x-0 top-0 z-40 overflow-hidden border-b border-slate-100 bg-white transition-all duration-500"
+			:class="dense ? 'md:h-16' : 'md:h-36'"
+			x-data="header"
+			@scroll.window="handleScroll"
+		>
+			<div class="container flex items-center gap-x-6 py-3">
+				<h1
+					class="hidden grow transition-all duration-500 md:block"
+					:class="dense ? 'md:-translate-y-[2rem]' : ''"
+				>
+					<div>
+						<img
+							class="transition-all duration-500"
+							src="/assets/images/logo.svg"
+							alt="MeiPAM"
+							:class="dense ? 'md:w-32' : 'md:w-52'"
+						/><span
+							class="block font-Barlow font-light tracking-wider transition-all duration-500"
+							:class="dense ? 'md:opacity-0 lg:opacity-100 md:text-[8.7px] md:-translate-y-[1.25em] md:translate-x-[8.5rem]' : 'md:text-[11.7px]'"
+							>Meironomachi Performance Art Marche</span
+						>
+					</div>
+				</h1>
+				<div class="block grow md:hidden">
+					<div>
+						<img
+							class="w-32"
+							src="/assets/images/logo_outline.svg"
+							alt="MeiPAM Meironomachi Performance Art Marche"
+							:class="dense ? '' : ''"
+						/>
+					</div>
+				</div>
+				<div>
+					<nav class="relative -top-3 text-right">
+						<style>
+							.ticket-button {
+								display: block !important;
+							}
+							.ticket-button a {
+								--tw-bg-opacity: 1;
+								background-color: rgb(236 113 27 / var(--tw-bg-opacity));
+							}
+						</style>
+						<ul class="inline-flex space-x-2">
+							<li
+								class="ticket-button group hidden overflow-hidden text-center leading-none text-white first:block md:block"
+							>
+								<a
+									class="relative block w-20 overflow-hidden bg-myGray pt-3 pb-2 text-2xs transition-all duration-500 hover:opacity-60 group-first:bg-accent md:w-36 md:text-xs"
+									href="https://www.asoview.com/channel/tickets/eZLNyX5SzG/"
+									target="_blank"
+									rel="noopener noreferrer"
+									:class="dense ? 'md:-translate-y-5' : ''"
+									><svg
+										class="mx-auto mb-2 w-5 transition-opacity duration-500"
+										:class="dense ? 'md:opacity-0' : ''"
+										viewBox="0 0 20 20"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<use href="/assets/images/icon_nav.svg#icon-nav01"></use></svg
+									>WEBチケット<span
+										class="pointer-events-none absolute -bottom-2 -left-2 h-4 w-4 rotate-45 bg-white"
+									></span
+									><span
+										class="pointer-events-none absolute -bottom-2 -right-2 h-4 w-4 rotate-45 bg-white"
+									></span
+								></a>
+							</li>
+							<li
+								class="ticket-button group hidden overflow-hidden text-center leading-none text-white first:block md:block"
+							>
+								<a
+									class="relative block w-20 overflow-hidden bg-myGray pt-3 pb-2 text-2xs transition-all duration-500 hover:opacity-60 group-first:bg-accent md:w-36 md:text-xs"
+									href="https://www.asoview.com/channel/tickets/U6yPCtFnjO/"
+									target="_blank"
+									rel="noopener noreferrer"
+									:class="dense ? 'md:-translate-y-5' : ''"
+									><svg
+										class="mx-auto mb-2 w-5 transition-opacity duration-500"
+										:class="dense ? 'md:opacity-0' : ''"
+										viewBox="0 0 20 20"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<use href="/assets/images/icon_nav.svg#icon-nav01"></use></svg
+									>Buy Tickets<span
+										class="pointer-events-none absolute -bottom-2 -left-2 h-4 w-4 rotate-45 bg-white"
+									></span
+									><span
+										class="pointer-events-none absolute -bottom-2 -right-2 h-4 w-4 rotate-45 bg-white"
+									></span
+								></a>
+							</li>
+							<li
+								class="group hidden overflow-hidden text-center leading-none text-white first:block md:block"
+							>
+								<a
+									class="relative block w-20 overflow-hidden bg-myGray pt-3 pb-2 text-2xs transition-all duration-500 hover:opacity-60 group-first:bg-accent md:w-36 md:text-xs"
+									href="https://yokai-museum.note.jp/n/n60a26b25b1ec"
+									target="_blank"
+									rel="noopener noreferrer"
+									:class="dense ? 'md:-translate-y-5' : ''"
+									><svg
+										class="mx-auto mb-2 w-5 transition-opacity duration-500"
+										:class="dense ? 'md:opacity-0' : ''"
+										viewBox="0 0 20 20"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<use href="/assets/images/icon_nav.svg#icon-nav02"></use></svg
+									>学校・法人様向け<span
+										class="pointer-events-none absolute -bottom-2 -left-2 h-4 w-4 rotate-45 bg-white"
+									></span
+									><span
+										class="pointer-events-none absolute -bottom-2 -right-2 h-4 w-4 rotate-45 bg-white"
+									></span
+								></a>
+							</li>
+							<li
+								class="group hidden overflow-hidden text-center leading-none text-white first:block md:block"
+							>
+								<a
+									class="relative block w-20 overflow-hidden bg-myGray pt-3 pb-2 text-2xs transition-all duration-500 hover:opacity-60 group-first:bg-accent md:w-36 md:text-xs"
+									href="https://yokai-museum.note.jp/n/n3d2dc1f498a8"
+									target="_blank"
+									rel="noopener noreferrer"
+									:class="dense ? 'md:-translate-y-5' : ''"
+									><svg
+										class="mx-auto mb-2 w-5 transition-opacity duration-500"
+										:class="dense ? 'md:opacity-0' : ''"
+										viewBox="0 0 20 20"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<use href="/assets/images/icon_nav.svg#icon-nav03"></use></svg
+									>プレスの方へ<span
+										class="pointer-events-none absolute -bottom-2 -left-2 h-4 w-4 rotate-45 bg-white"
+									></span
+									><span
+										class="pointer-events-none absolute -bottom-2 -right-2 h-4 w-4 rotate-45 bg-white"
+									></span
+								></a>
+							</li>
+						</ul>
+					</nav>
+					<nav
+						class="mt-6 hidden transition-all duration-500 md:block"
+						:class="dense ? 'md:opacity-0' : ''"
+					>
+						<ul class="flex">
+							<li class="group border-r border-myBorder last:border-none">
+								<a
+									class="block px-2 py-2 text-xs transition-opacity duration-500 hover:opacity-60 group-last:pr-0 lg:px-5 lg:text-sm"
+									href="https://yokaimuseum.on-the-trip.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+									>妖怪美術館</a
+								>
+							</li>
+							<li class="group border-r border-myBorder last:border-none">
+								<a
+									class="block px-2 py-2 text-xs transition-opacity duration-500 hover:opacity-60 group-last:pr-0 lg:px-5 lg:text-sm"
+									href="https://yokai-museum.note.jp/n/ndcb801842c2a"
+									target="_blank"
+									rel="noopener noreferrer"
+									>妖怪bar</a
+								>
+							</li>
+							<li class="group border-r border-myBorder last:border-none">
+								<a
+									class="block px-2 py-2 text-xs transition-opacity duration-500 hover:opacity-60 group-last:pr-0 lg:px-5 lg:text-sm"
+									href="https://www.asoview.com/item/ticket/ticket0000005779/"
+									target="_blank"
+									rel="noopener noreferrer"
+									>小野川直樹美術館</a
+								>
+							</li>
+							<li class="group border-r border-myBorder last:border-none">
+								<a
+									class="block px-2 py-2 text-xs transition-opacity duration-500 hover:opacity-60 group-last:pr-0 lg:px-5 lg:text-sm"
+									href="https://calendar.google.com/calendar/embed?src=juop767n46klf4uqomqcssfv5o%40group.calendar.google.com&amp;ctz=Asia%2FTokyo"
+									target="_blank"
+									rel="noopener noreferrer"
+									>開館カレンダー</a
+								>
+							</li>
+							<li class="group border-r border-myBorder last:border-none">
+								<a
+									class="block px-2 py-2 text-xs transition-opacity duration-500 hover:opacity-60 group-last:pr-0 lg:px-5 lg:text-sm"
+									href="https://yokai-museum.note.jp/n/n6d70487e0d53"
+									target="_blank"
+									rel="noopener noreferrer"
+									>アクセス・駐車場</a
+								>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="block shrink-0 leading-none md:hidden" x-data="dialog" x-id="['menu-trigger']">
+					<button
+						class="h-7 w-7"
+						type="button"
+						:id="$id('menu-trigger')"
+						@click="isOpen = !isOpen"
+						:class="isOpen ? '' : ''"
+					>
+						<span class="relative block"
+							><span
+								class="absolute left-0 top-1/2 -mt-[0.05rem] block h-[1px] w-full bg-off-black transition-transform duration-300"
+								:class="isOpen ? 'translate-y-0 rotate-45' : 'translate-y-2'"
+							></span
+							><span
+								class="absolute left-0 top-1/2 -mt-[0.05rem] block h-[1px] w-full bg-off-black transition-opacity duration-300"
+								:class="isOpen ? 'opacity-0' : ''"
+							></span
+							><span
+								class="absolute left-0 top-1/2 -mt-[0.05rem] block h-[1px] w-full bg-off-black transition-transform duration-300"
+								:class="isOpen ? 'translate-y-0 -rotate-45' : '-translate-y-2'"
+							></span
+						></span></button
+					><template x-teleport="#js-overlay-container"
+						><div>
+							<nav
+								class="fixed inset-0 z-10 ml-auto max-w-2xl overflow-auto bg-white py-5 pt-[var(--height-site-head)]"
+								role="dialog"
+								:aria-labelledby="$id('menu-trigger')"
+								x-bind="root"
+								x-show="isOpen"
+								x-transition:enter="transition-opacity duration-200"
+								x-transition:enter-start="opacity-0"
+								x-transition:enter-end="opacity-100"
+								x-transition:leave="transition-opacity duration-200"
+								x-transition:leave-start="opacity-100"
+								x-transition:leave-end="opacity-0"
+							>
+								<div class="pointer-events-none fixed inset-0 pt-[var(--height-site-head)]">
+									<div class="container h-full pt-10">
+										<div class="relative h-full pb-10">
+											<p
+												class="relative -left-2 font-Barlow text-base font-extralight uppercase leading-none text-accent [writing-mode:vertical-rl] md:text-xl"
+											>
+												Menu
+											</p>
+											<div class="absolute inset-0 px-4">
+												<div class="h-[85%] border-x border-accent"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<ul class="pt-10 text-center">
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://www.asoview.com/channel/tickets/eZLNyX5SzG/"
+												target="_blank"
+												rel="noopener noreferrer"
+												x-bind="autoFocus"
+												><svg
+													class="mx-auto mb-2 w-6"
+													viewBox="0 0 20 20"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<use href="/assets/images/icon_nav.svg#icon-nav01"></use></svg
+												>WEBチケット</a
+											>
+										</li>
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://www.asoview.com/channel/tickets/U6yPCtFnjO/"
+												target="_blank"
+												rel="noopener noreferrer"
+												><svg
+													class="mx-auto mb-2 w-6"
+													viewBox="0 0 20 20"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<use href="/assets/images/icon_nav.svg#icon-nav01"></use></svg
+												>Buy Tickets</a
+											>
+										</li>
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://yokai-museum.note.jp/n/n60a26b25b1ec"
+												target="_blank"
+												rel="noopener noreferrer"
+												><svg
+													class="mx-auto mb-2 w-6"
+													viewBox="0 0 20 20"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<use href="/assets/images/icon_nav.svg#icon-nav02"></use></svg
+												>学校・法人様向け</a
+											>
+										</li>
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://yokai-museum.note.jp/n/n3d2dc1f498a8"
+												target="_blank"
+												rel="noopener noreferrer"
+												><svg
+													class="mx-auto mb-2 w-6"
+													viewBox="0 0 20 20"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<use href="/assets/images/icon_nav.svg#icon-nav03"></use></svg
+												>プレスの方へ</a
+											>
+										</li>
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://yokaimuseum.on-the-trip.com/"
+												target="_blank"
+												rel="noopener noreferrer"
+												>妖怪美術館</a
+											>
+										</li>
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://yokai-museum.note.jp/n/ndcb801842c2a"
+												target="_blank"
+												rel="noopener noreferrer"
+												>妖怪bar</a
+											>
+										</li>
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://www.asoview.com/item/ticket/ticket0000005779/"
+												target="_blank"
+												rel="noopener noreferrer"
+												>小野川直樹美術館</a
+											>
+										</li>
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://calendar.google.com/calendar/embed?src=juop767n46klf4uqomqcssfv5o%40group.calendar.google.com&amp;ctz=Asia%2FTokyo"
+												target="_blank"
+												rel="noopener noreferrer"
+												>開館カレンダー</a
+											>
+										</li>
+										<li>
+											<a
+												class="block py-5 text-sm"
+												href="https://yokai-museum.note.jp/n/n6d70487e0d53"
+												target="_blank"
+												rel="noopener noreferrer"
+												>アクセス・駐車場</a
+											>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div></template
+					>
+				</div>
+			</div>
+		</header>
+		<main class="overflow-hidden pt-16" @loaded-news.window="waypointStart">
+			<div class="h-[250px] md:h-[70vh]">
+				<!--img(src=f.url("/assets/images/kv.png"), alt="", class="w-full h-full object-cover")--><video
+					class="h-full w-full object-cover"
+					src="/assets/videos/kv.mp4"
+					autoplay
+					muted
+					playsinline
+					loop
+				></video>
+			</div>
+			<section class="container mt-10 md:mt-16" x-data="news" x-show="!isError">
+				<div class="flex space-x-4 md:space-x-6">
+					<div class="relative shrink-0 pr-2" data-waypoints="fade">
+						<p
+							class="w-[1em] font-Barlow text-base font-extralight uppercase leading-none text-accent [writing-mode:vertical-rl] md:text-xl"
+						>
+							News
+						</p>
+						<div class="absolute top-0 right-0 h-full border-r border-accent"></div>
+					</div>
+					<article>
+						<h2 class="text-sm font-medium md:text-base" data-waypoints="fade">お知らせ</h2>
+						<div class="mt-2 pr-6 text-xs md:mt-8 md:text-sm" data-waypoints="fade">
+							<template x-for="post in posts"
+								><article
+									class="relative py-2 transition-opacity duration-500 hover:opacity-60 md:flex md:items-start md:space-x-1"
+								>
+									<time
+										class="flex shrink-0 items-center font-Barlow font-medium text-accent"
+										:datetime="post.time"
+										><span class="md:min-w-[70px]" x-text="getFormatTime(post.time)"></span
+										><span class="ml-2 rotate-90 md:rotate-0"
+											><img
+												class="h-[10px] w-[5px]"
+												src="/assets/images/icon_arrow.svg"
+												alt="" /></span
+									></time>
+									<h3 class="mt-1 leading-relaxed tracking-wider md:mt-0">
+										<a
+											class="anchor-cover"
+											:href="post.url"
+											target="_blank"
+											rel="noopener noreferrer"
+											x-text="post.title"
+										></a>
+									</h3></article
+							></template>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section class="container mt-12 md:mt-16 md:flex" id="section-1">
+				<div class="flex shrink-0">
+					<div class="justity-start flex shrink-0 flex-row-reverse" data-waypoints="fade">
+						<h2
+							class="-ml-[1em] flex flex-col items-center pt-[1em] font-medium leading-none tracking-[0.25em]"
+						>
+							<span class="[writing-mode:vertical-rl] [text-orientation:upright]"
+								>メイパムとは</span
+							>
+							<div class="mt-2 h-16 w-[1px] bg-off-black md:h-24"></div>
+						</h2>
+						<p
+							class="h-0 whitespace-nowrap font-Barlow text-[42px] font-extralight leading-none tracking-wider text-accent/25 [writing-mode:vertical-rl] md:text-[55px]"
+						>
+							MeiPAM
+						</p>
+					</div>
+					<div class="ml-8 grow pt-16 md:ml-12 md:pt-10" data-waypoints="fade">
+						<p class="text-2xs leading-loose md:text-sm md:leading-loose">
+							MeiPAM（メイパム）は、<br />Mei：迷路のまち<br />P：パフォーマンス<br />A：アート<br />M：マルシェ<br />の略称。<br /><br />海賊の侵入や戦乱に備えて、<br />路地を迷路のように<br />入り組ませたと言われている迷路のまち。<br />曲がり角の向こうにはナニカが潜んでいる。<br />このまちにはそんな雰囲気が漂います。<br />私たちはここで、古民家を活用した<br />文化活動を進めることで、<br />地域を磨いていきたいと思っています。
+						</p>
+					</div>
+				</div>
+				<figure class="mt-12 grow md:mt-0 md:ml-12">
+					<img
+						class="-ml-6 w-[80%] md:ml-0 md:w-[35vw] lg:w-[min(40vw,100%)]"
+						src="/assets/images/section_01_01.png"
+						alt=""
+						data-waypoints="fade"
+					/><img
+						class="relative -left-6 mt-4 ml-auto w-[50%] md:left-0 md:w-[20vw] lg:left-[min(30vw,430px)] lg:ml-0 lg:w-[min(20vw,311px)]"
+						src="/assets/images/section_01_02.png"
+						alt=""
+						data-waypoints="fade"
+					/>
+				</figure>
+			</section>
+			<section
+				class="container mt-12 justify-between md:flex md:flex-row-reverse lg:mt-4"
+				id="section-2"
+			>
+				<div class="flex shrink-0 flex-row-reverse md:pt-14">
+					<div class="flex shrink-0" data-waypoints="fade">
+						<h2
+							class="-mr-[0.75em] flex flex-col items-center pt-[1em] font-medium leading-none tracking-[0.25em]"
+						>
+							<span class="[writing-mode:vertical-rl] [text-orientation:upright]"
+								>妖怪美術館とは</span
+							>
+							<div class="mt-2 h-16 w-[1px] bg-off-black md:h-24"></div>
+						</h2>
+						<p
+							class="h-0 whitespace-nowrap font-Barlow text-[42px] font-extralight leading-none tracking-wider text-accent/25 [writing-mode:vertical-rl] md:text-[55px]"
+						>
+							Yokai Art Museum
+						</p>
+					</div>
+					<div class="mr-8 grow pt-16 md:mr-12 md:pt-10" data-waypoints="fade">
+						<p class="text-2xs leading-loose md:text-sm md:leading-loose">
+							「妖怪を世界へ」<br />私たちは「妖怪（＝Yokai）」を<br />「もったいない（＝Mottainai）と<br />同じような世界語にしたいと考えています。<br /><br />小豆島は古代からの歴史があり、<br />海の交易やお遍路信仰の玄関口として、<br />様々な人が集い、<br />そして語らう賑やかな場所でした。<br />全国各地から人が訪れることで、<br />どこからともなく生まれてきたのが、<br />妖怪にまつわる様々な話です。<br />そして現在、全国から「現代の妖怪」が<br />ここ小豆島に集まっています。<br />800体以上集まる妖怪の作品群を観ることで、<br />日本人の精神性や文化的遺伝子を感じてみて下さい。
+						</p>
+						<a
+							class="mt-8 flex inline-flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:mt-6 md:pb-3"
+							href="https://yokaimuseum.on-the-trip.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><svg
+								class="mr-2 h-6 w-6 md:mr-3"
+								viewBox="0 0 30 30"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+							><span>妖怪美術館WEB</span></a
+						>
+					</div>
+				</div>
+				<figure class="mt-12 grow md:mt-0 md:mr-12">
+					<img
+						class="relative ml-auto -mr-6 w-[80%] md:ml-0 md:mr-0 md:w-[min(35vw,100%)] lg:right-[3vw] lg:w-[min(40vw,100%)] 2xl:right-[180px]"
+						src="/assets/images/section_02_01.png"
+						alt=""
+						data-waypoints="fade"
+					/><img
+						class="relative mt-2 w-[50%] md:ml-auto md:mt-4 md:w-[min(20vw,327px)]"
+						src="/assets/images/section_02_02.png"
+						alt=""
+						data-waypoints="fade"
+					/>
+				</figure>
+			</section>
+			<section class="container mt-12 justify-between md:flex lg:mt-4" id="section-3">
+				<div class="flex shrink-0">
+					<div class="justity-start flex shrink-0 flex-row-reverse" data-waypoints="fade">
+						<h2
+							class="-ml-[1em] flex flex-col items-center pt-[1em] font-medium leading-none tracking-[0.25em]"
+						>
+							<span class="[writing-mode:vertical-rl] [text-orientation:upright]">妖怪BARとは</span>
+							<div class="mt-2 h-16 w-[1px] bg-off-black md:h-24"></div>
+						</h2>
+						<p
+							class="h-0 whitespace-nowrap font-Barlow text-[42px] font-extralight leading-none tracking-wider text-accent/25 [writing-mode:vertical-rl] md:text-[55px]"
+						>
+							Yokai Bar
+						</p>
+					</div>
+					<div class="ml-8 grow pt-16 md:ml-12 md:pt-10" data-waypoints="fade">
+						<p class="text-2xs leading-loose md:text-sm md:leading-loose">
+							常連客は妖怪。<br /><br />妖怪が夜な夜な集まってくる妖怪バー。<br />妖怪専用のドリンクの中に<br />人間用も少しだけあります。<br />お札付きの特性カクテルや、<br />アマビエやカッパをイメージしたソーダ。<br />記憶チョーケシショットに妖怪酒など<br />取り揃えております。<br />妖怪美術館をまわった後は<br />ここで一息いかがでしょう？
+						</p>
+						<a
+							class="mt-8 flex inline-flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:mt-6 md:pb-3"
+							href="https://yokai-museum.note.jp/n/ndcb801842c2a"
+							target="_blank"
+							rel="noopener noreferrer"
+							><svg
+								class="mr-2 h-6 w-6 md:mr-3"
+								viewBox="0 0 30 30"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+							><span>妖怪Bar WEB</span></a
+						>
+					</div>
+				</div>
+				<figure class="mt-12 grow md:mt-0 md:ml-12 md:pt-24">
+					<img
+						class="w-[50%] md:w-[35vw] md:w-[min(25vw,341px)]"
+						src="/assets/images/section_03_01.png"
+						alt=""
+						data-waypoints="fade"
+					/><img
+						class="relative -mr-6 mt-4 ml-auto w-[80%] md:mr-0 md:w-[min(40vw,526px)] lg:left-[min(10vw,230px)] lg:ml-0"
+						src="/assets/images/section_03_02.png"
+						alt=""
+						data-waypoints="fade"
+					/>
+				</figure>
+			</section>
+			<section
+				class="container mt-12 justify-between pb-24 md:flex md:flex-row-reverse md:pb-36"
+				id="section-4"
+			>
+				<div class="flex shrink-0 flex-row-reverse md:pt-24">
+					<div class="flex shrink-0" data-waypoints="fade">
+						<h2
+							class="-mr-[0.75em] flex flex-col items-center pt-[1em] font-medium leading-none tracking-[0.25em]"
+						>
+							<span class="[writing-mode:vertical-rl] [text-orientation:upright]"
+								>小野川直樹美術館とは</span
+							>
+							<div class="mt-2 h-16 w-[1px] bg-off-black md:h-24"></div>
+						</h2>
+						<p
+							class="h-0 whitespace-nowrap font-Barlow text-[42px] font-extralight leading-none tracking-wider text-accent/25 [writing-mode:vertical-rl] md:text-[55px]"
+						>
+							Onogawa Naoki Museum
+						</p>
+					</div>
+					<div class="mr-8 grow pt-16 md:mr-12 md:pt-10" data-waypoints="fade">
+						<p class="text-2xs leading-loose md:text-sm md:leading-loose">
+							10ミリ四方の小宇宙。<br />小さな折り鶴に託した祈り。　<br /><br />見えないものを見ようとする心や<br />事物に思いや魂を込めるということ、<br />それらをあやかり支えとすること、<br />不思議であいまいな感覚を<br />折り鶴に落とし込み、作品を制作する。<br />これが折り鶴に観る可能性の一つです。<br />（折り鶴アーティスト　小野川直樹）
+						</p>
+						<a
+							class="mt-8 flex inline-flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:mt-6 md:pb-3"
+							href="https://www.asoview.com/item/ticket/ticket0000005779/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><svg
+								class="mr-2 h-6 w-6 md:mr-3"
+								viewBox="0 0 30 30"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+							><span>小野川直樹美術館</span></a
+						>
+					</div>
+				</div>
+				<figure class="mt-12 grow md:mt-0 md:mr-12">
+					<img
+						class="relative -ml-6 w-[80%] md:ml-0 md:mr-0 md:w-[min(35vw,100%)] lg:right-[3vw] lg:w-[min(40vw,100%)] 2xl:right-[180px]"
+						src="/assets/images/section_04_01.png"
+						alt=""
+						data-waypoints="fade"
+					/><img
+						class="relative ml-auto mt-2 w-[50%] md:ml-0 md:ml-auto md:mt-4 md:w-[min(20vw,327px)]"
+						src="/assets/images/section_04_02.png"
+						alt=""
+						data-waypoints="fade"
+					/>
+				</figure>
+			</section>
+			<section class="bg-neutral-100 pt-8 md:pt-12" id="section-5">
+				<div class="text-center" data-waypoints="fade">
+					<h2 class="text-lg font-medium tracking-widest md:text-2xl">迷路のまちの過ごし方</h2>
+					<div class="inline-block h-[1px] w-20 rounded-full bg-accent"></div>
+					<p class="mt-3 font-Barlow text-3xs font-light tracking-wider text-accent md:text-sm">
+						How to spend time in Maze Town
+					</p>
+				</div>
+				<dl
+					class="container mt-8 grid grid-cols-1 gap-y-9 pb-14 text-center md:grid-cols-3 md:gap-y-0 md:gap-x-0.5"
+				>
+					<div
+						class="group relative pb-4 transition-all duration-300 hover:bg-white/80"
+						data-waypoints="fade"
+					>
+						<figure class="overflow-hidden">
+							<img
+								class="w-full transition-all duration-300 group-hover:scale-105"
+								src="/assets/images/spending_01.png"
+								alt=""
+							/>
+						</figure>
+						<div
+							class="mt-7 inline-block w-10 border-b-[1px] border-b-accent font-Barlow text-2xl font-light text-accent md:mt-14"
+						>
+							1
+						</div>
+						<dt class="mt-5 text-base font-medium tracking-wider md:text-xl">
+							<a
+								class="anchor-cover"
+								href="https://yokai-museum.note.jp/n/na3c76d2903de"
+								target="_blank"
+								rel="noopener noreferrer"
+								>アート巡り</a
+							>
+						</dt>
+						<dd class="mt-3 px-4 text-3xs leading-loose md:text-xs">
+							「迷路のまち」にはアートプロジェクトMeiPAMが運営する妖怪美術館、小野川直樹美術館をはじめ、様々なアート作品が鑑賞できます。
+						</dd>
+						<svg
+							class="mt-4 inline-block h-6 w-6 md:mt-8"
+							viewBox="0 0 30 30"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use href="/assets/images/icon_link.svg#icon-link"></use>
+						</svg>
+					</div>
+					<div
+						class="group relative pb-4 transition-all duration-300 hover:bg-white/80"
+						data-waypoints="fade"
+					>
+						<figure class="overflow-hidden">
+							<img
+								class="w-full transition-all duration-300 group-hover:scale-105"
+								src="/assets/images/spending_02.png"
+								alt=""
+							/>
+						</figure>
+						<div
+							class="mt-7 inline-block w-10 border-b-[1px] border-b-accent font-Barlow text-2xl font-light text-accent md:mt-14"
+						>
+							2
+						</div>
+						<dt class="mt-5 text-base font-medium tracking-wider md:text-xl">
+							<a
+								class="anchor-cover"
+								href="https://yokai-museum.note.jp/n/n06028188b55d"
+								target="_blank"
+								rel="noopener noreferrer"
+								>暮らすようにまち歩き</a
+							>
+						</dt>
+						<dd class="mt-3 px-4 text-3xs leading-loose md:text-xs">
+							地元の人と並んで定食を食べたり、ローカルスーパーで買い物を楽しんだり、世界でここにしかない体験できます。迷路のまちの日常に溶け込んで非日常の体験を楽しんでみてください。
+						</dd>
+						<svg
+							class="mt-4 inline-block h-6 w-6 md:mt-8"
+							viewBox="0 0 30 30"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use href="/assets/images/icon_link.svg#icon-link"></use>
+						</svg>
+					</div>
+					<div
+						class="group relative pb-4 transition-all duration-300 hover:bg-white/80"
+						data-waypoints="fade"
+					>
+						<figure class="overflow-hidden">
+							<img
+								class="w-full transition-all duration-300 group-hover:scale-105"
+								src="/assets/images/spending_03.png"
+								alt=""
+							/>
+						</figure>
+						<div
+							class="mt-7 inline-block w-10 border-b-[1px] border-b-accent font-Barlow text-2xl font-light text-accent md:mt-14"
+						>
+							3
+						</div>
+						<dt class="mt-5 text-base font-medium tracking-wider md:text-xl">
+							<a
+								class="anchor-cover"
+								href="https://yokai-museum.note.jp/n/ne450e9e696bd"
+								target="_blank"
+								rel="noopener noreferrer"
+								>ナイトタイム観光</a
+							>
+						</dt>
+						<dd class="mt-3 px-4 text-3xs leading-loose md:text-xs">
+							夜になると昼間とは違う姿を見せてくれる迷路のまち。バーや居酒屋さんなど夜も気軽に立ち寄れるお店が集まっています。
+						</dd>
+						<svg
+							class="mt-4 inline-block h-6 w-6 md:mt-8"
+							viewBox="0 0 30 30"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use href="/assets/images/icon_link.svg#icon-link"></use>
+						</svg>
+					</div>
+				</dl>
+			</section>
+			<section class="pb-10 pt-12 md:pb-20" id="section-6">
+				<div class="text-center" data-waypoints="fade">
+					<h2 class="text-lg font-medium tracking-widest md:text-2xl">その他の関連ページへ</h2>
+					<div class="inline-block h-[1px] w-20 rounded-full bg-accent"></div>
+					<p class="mt-3 font-Barlow text-3xs font-light tracking-wider text-accent md:text-sm">
+						Links to relevant page
+					</p>
+				</div>
+				<nav class="mt-9 lg:mt-14">
+					<ul
+						class="container grid grid-cols-2 gap-x-4 gap-y-7 md:gap-x-14 lg:grid-cols-4"
+						data-waypoints="fade"
+					>
+						<li class="text-sm font-medium md:text-base">
+							<a
+								class="flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:pb-3"
+								href="http://meiro-youkai.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="mr-2 h-6 w-6 md:mr-3"
+									viewBox="0 0 30 30"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+								><span>妖怪造形大賞</span></a
+							>
+						</li>
+						<li class="text-sm font-medium md:text-base">
+							<a
+								class="flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:pb-3"
+								href="https://yokai-museum.note.jp/n/n1e248516a456"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="mr-2 h-6 w-6 md:mr-3"
+									viewBox="0 0 30 30"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+								><span>クチコミ</span></a
+							>
+						</li>
+						<li class="text-sm font-medium md:text-base">
+							<a
+								class="flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:pb-3"
+								href="https://yokaiartmuseum-vr.studio.site/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="mr-2 h-6 w-6 md:mr-3"
+									viewBox="0 0 30 30"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+								><span>妖怪美術館VR</span></a
+							>
+						</li>
+						<li class="text-sm font-medium md:text-base">
+							<a
+								class="flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:pb-3"
+								href="https://yagyuchubei.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="mr-2 h-6 w-6 md:mr-3"
+									viewBox="0 0 30 30"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+								><span>館長・柳生忠平</span></a
+							>
+						</li>
+						<li class="text-sm font-medium md:text-base">
+							<a
+								class="flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:pb-3"
+								href="https://mononokedo.thebase.in/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="mr-2 h-6 w-6 md:mr-3"
+									viewBox="0 0 30 30"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+								><span>公式ショップ</span></a
+							>
+						</li>
+						<li class="text-sm font-medium md:text-base">
+							<a
+								class="flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:pb-3"
+								href="https://suzuri.jp/yokaimuseum"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="mr-2 h-6 w-6 md:mr-3"
+									viewBox="0 0 30 30"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+								><span>非公式ショップ</span></a
+							>
+						</li>
+						<li class="text-sm font-medium md:text-base">
+							<a
+								class="flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:pb-3"
+								href="https://youtu.be/6_wQO4rbbUM"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="mr-2 h-6 w-6 md:mr-3"
+									viewBox="0 0 30 30"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+								><span>チョーケシのうた</span></a
+							>
+						</li>
+						<li class="text-sm font-medium md:text-base">
+							<a
+								class="flex items-center border-b border-myBorder pb-2 transition-opacity hover:opacity-60 md:pb-3"
+								href="https://yokai-museum.note.jp/n/na924b0dafa5e"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="mr-2 h-6 w-6 md:mr-3"
+									viewBox="0 0 30 30"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<use href="/assets/images/icon_link.svg#icon-link"></use></svg
+								><span>メディア掲載</span></a
+							>
+						</li>
+					</ul>
+					<ul
+						class="mx-auto mt-16 flex w-48 flex-wrap justify-center text-center md:w-auto lg:mt-28"
+						data-waypoints="fade"
+					>
+						<li class="mx-1.5 mt-3">
+							<a
+								class="block transition-opacity hover:opacity-60"
+								href="https://twitter.com/meipam_meiro"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img src="/assets/images/icon_twitter.svg" alt="Twitter"
+							/></a>
+						</li>
+						<li class="mx-1.5 mt-3">
+							<a
+								class="block transition-opacity hover:opacity-60"
+								href="https://instagram.com/meipamyokai"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img src="/assets/images/icon_instagram.svg" alt="instagram"
+							/></a>
+						</li>
+						<li class="mx-1.5 mt-3">
+							<a
+								class="block transition-opacity hover:opacity-60"
+								href="https://www.facebook.com/meipam.meiro/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img src="/assets/images/icon_facebook.svg" alt="facebook"
+							/></a>
+						</li>
+						<li class="mx-1.5 mt-3">
+							<a
+								class="block transition-opacity hover:opacity-60"
+								href="https://yokai-museum.note.jp/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img src="/assets/images/icon_note.svg" alt="note"
+							/></a>
+						</li>
+						<li class="mx-1.5 mt-3">
+							<a
+								class="block transition-opacity hover:opacity-60"
+								href="https://tiktok.com/@yokaiartmuseum"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img src="/assets/images/icon_tiktok.svg" alt="tiktok"
+							/></a>
+						</li>
+						<li class="mx-1.5 mt-3">
+							<a
+								class="block transition-opacity hover:opacity-60"
+								href="https://www.youtube.com/c/yokaimeipam"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img src="/assets/images/icon_youtube.svg" alt="youtube"
+							/></a>
+						</li>
+						<li class="mx-1.5 mt-3">
+							<a
+								class="block transition-opacity hover:opacity-60"
+								href="mailto:mail@meipam.net"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img src="/assets/images/icon_mail.svg" alt="mail"
+							/></a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</main>
+		<footer class="bg-off-black py-8 text-3xs text-white md:text-sm">
+			<div class="container">
+				<nav class="lg:flex">
+					<ul class="grid grow grid-cols-2 md:grid-cols-3">
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://www.asoview.com/channel/tickets/eZLNyX5SzG/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>WEBチケット</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://www.asoview.com/channel/tickets/U6yPCtFnjO/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>Buy Tickets</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://yokai-museum.note.jp/n/n60a26b25b1ec"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>学校・法人様向け</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://yokai-museum.note.jp/n/n3d2dc1f498a8"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>プレスの方へ</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://calendar.google.com/calendar/embed?src=juop767n46klf4uqomqcssfv5o%40group.calendar.google.com&amp;ctz=Asia%2FTokyo"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>開館カレンダー</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://yokai-museum.note.jp/n/n6d70487e0d53"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>アクセス・駐車場</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://yokai-museum.note.jp"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>お知らせ</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="#section-1"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>MeiPAMとは</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="#section-2"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>妖怪美術館とは</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="#section-3"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>妖怪barとは</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="#section-4"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>小野川直樹美術館とは</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="#section-5"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>迷路のまちの過ごし方</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="#section-6"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>その他の関連ページへ</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="mailto:mail@meipam.net"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>お問い合わせ</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://yokai-museum.note.jp/n/n363755a28db8"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>よくあるご質問</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://prtimes.jp/main/html/searchrlp/company_id/5189"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>プレスリリースアーカイブ</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://shl-olive.co.jp/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>小豆島ヘルシーランド</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://taijyu.shl-olive.co.jp/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>オリーヴの森</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://shl-olive.co.jp/sitepolicy/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>サイトポリシー</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="https://shl-olive.co.jp/privacypolicy/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>プライバシーポリシー</span></a
+							>
+						</li>
+						<li class="even:pl-4 md:even:pl-0">
+							<a
+								class="flex items-center space-x-2 py-3 transition-opacity hover:opacity-60"
+								href="/assets/documents/yokai-museum-policy.pdf"
+								target="_blank"
+								rel="noopener noreferrer"
+								><svg
+									class="h-[0.8em] w-auto"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 5.533 9.866"
+									preserveAspectRatio="none"
+								>
+									<path
+										d="m.849.849 4.084 4.084L.849 9.017"
+										fill="none"
+										stroke="#fff"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-miterlimit="10"
+										stroke-width="1.2"
+									></path></svg
+								><span>妖怪美術館 運営方針</span></a
+							>
+						</li>
+					</ul>
+					<ul class="mt-8 grid grid-cols-2 lg:mt-0 lg:w-1/3">
+						<li>
+							<a
+								class="block py-3 transition-opacity hover:opacity-60"
+								href="https://yokaimuseum.on-the-trip.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img class="mx-auto" src="/assets/images/logo_yokai.svg" alt="妖怪美術館"
+							/></a>
+						</li>
+						<li>
+							<a
+								class="block py-3 transition-opacity hover:opacity-60"
+								href="https://naoki-onogawa-museum.business.site/"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img
+									class="mx-auto"
+									src="/assets/images/logo_naoki.svg"
+									alt="naoki onogawa museum"
+							/></a>
+						</li>
+						<li>
+							<a
+								class="block py-3 transition-opacity hover:opacity-60"
+								href="https://yokai-museum.note.jp/n/ndcb801842c2a"
+								target="_blank"
+								rel="noopener noreferrer"
+								><img class="mx-auto" src="/assets/images/logo_bar.svg" alt="見妖怪bar"
+							/></a>
+						</li>
+						<li>
+							<span class="block py-3"
+								><img class="mx-auto" src="/assets/images/logo_meipam.svg" alt="MeiPAM"
+							/></span>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<p class="mt-8 text-center md:text-2xs">©アートプロジェクト MeiPAM All Right Reserved.</p>
+		</footer>
+		<div id="js-overlay-container"></div>
+		<div
+			class="fixed inset-0 z-50 bg-white"
+			x-data="{ isLoaded: false }"
+			@loaded-news.window="isLoaded = true"
+			x-show="!isLoaded"
+			x-transition:leave="transition-opacity duration-700 pointer-events-none"
+			x-transition:leave-start="opacity-100"
+			x-transition:leave-end="opacity-0"
+		>
+			<div class="flex h-full animate-pulse items-center justify-center">
+				<img class="w-48" src="/assets/images/logo_outline.svg" />
+			</div>
+		</div>
+	</body>
+</html>
