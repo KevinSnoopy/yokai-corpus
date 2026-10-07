@@ -47,9 +47,20 @@ def check_refs():
     return problems
 
 
+def docs():
+    """检查范围：8 份正文 + README + NOTICE。
+
+    只查 yokai_*.md 会漏掉入口层——README 与 NOTICE 同样面向读者，
+    残留的日志体措辞或容器路径同样该被拦。
+    """
+    return sorted(D.glob("yokai_*.md")) + sorted(
+        p for p in (D / "README.md", D / "NOTICE.md") if p.exists()
+    )
+
+
 def check_patterns():
     problems = []
-    for p in sorted(D.glob("yokai_*.md")):
+    for p in docs():
         s = p.read_text(encoding="utf-8")
         for kw in LOGGY:
             n = len(re.findall(kw, s))
@@ -71,7 +82,7 @@ def check_patterns():
 
 def check_headings():
     problems = []
-    for p in sorted(D.glob("yokai_*.md")):
+    for p in docs():
         lines = p.read_text(encoding="utf-8").split("\n")
         h2 = [i for i, l in enumerate(lines) if l.startswith("## ")]
         # 相邻重复标题
@@ -99,7 +110,7 @@ def check_punctuation():
         (r"。\s*。", "重复句号"),
         (r"^\s*[-*]\s*$", "空列表项"),
     ]
-    for p in sorted(D.glob("yokai_*.md")):
+    for p in docs():
         for i, line in enumerate(p.read_text(encoding="utf-8").split("\n"), 1):
             for pat, desc in pats:
                 if re.search(pat, line):
