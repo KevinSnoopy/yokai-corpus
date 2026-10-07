@@ -39,7 +39,7 @@ def main():
         "<head>",
         '<meta charset="UTF-8">',
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
-        "<title>妖怪图鉴 181 条</title>",
+        f"<title>妖怪图鉴 {len(cards)} 条</title>",
         "<style>",
         "body{font-family:system-ui,sans-serif;margin:2rem;line-height:1.6}",
         ".grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1.5rem}",
