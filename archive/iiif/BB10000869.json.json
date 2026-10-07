@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000869.json",
+  "@type": "sc:Manifest",
+  "label": "[長谷雄草紙 Haseo sōshi]",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "BB10000869"
+    },
+    {
+      "label": "title",
+      "value": "[長谷雄草紙 Haseo sōshi]"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "label": "creator",
+      "value": "[福田太華 Fukuda Taika]"
+    },
+    {
+      "label": "publisher",
+      "value": "Unknown"
+    },
+    {
+      "label": "date",
+      "value": "[18--]"
+    },
+    {
+      "label": "size",
+      "value": "36.3×1195.6cm"
+    }
+  ],
+  "attribution": "国際日本文化研究センター Nichibunken",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/BB10000869",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000869/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000869/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 1572,
+          "width": 49688,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000869/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/BB10000869/003680071_00.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1572,
+                "width": 49688,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/BB10000869/003680071_00.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000869/1/canvas_1.json"
+            }
+          ]
+        }
+		
+      ]
+    }
+  ]
+}

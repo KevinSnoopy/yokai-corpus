@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10561127.json",
+  "@type": "sc:Manifest",
+  "label": "[桃太郎絵巻] Momotarō emaki",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "BB10561127"
+    },
+    {
+      "label": "title",
+      "value": "[桃太郎絵巻] Momotarō emaki"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "label": "creator",
+      "value": "龍雲斎写"
+    },
+    {
+      "label": "publisher",
+      "value": "Unknown"
+    },
+    {
+      "label": "date",
+      "value": "寛政7 [1795]"
+    },
+    {
+      "label": "size",
+      "value": "27.2cm×1755cm"
+    }
+  ],
+  "attribution": "国際日本文化研究センター Nichibunken",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/BB10561127",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10561127/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10561127/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4900,
+          "width": 150110,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10561127/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/BB10561127/006085302_01.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4900,
+                "width": 150110,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/BB10561127/006085302_01.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10561127/1/canvas_1.json"
+            }
+          ]
+        },
+		
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10561127/1/canvas_2.json",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4901,
+          "width": 141627,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10561127/1/2/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/BB10561127/006085302_02.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4901,
+                "width": 141627,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/BB10561127/006085302_02.tif",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10561127/1/canvas_2.json"
+            }
+          ]
+        }
+
+	  ]
+    }
+  ]
+}

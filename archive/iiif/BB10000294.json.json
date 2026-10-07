@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000294.json",
+  "@type": "sc:Manifest",
+  "label": "鳥羽絵巻 Toba emaki",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "BB10000294"
+    },
+    {
+      "label": "title",
+      "value": "鳥羽絵巻 Toba emaki"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "label": "creator",
+      "value": "幽花堂 Yūkadō"
+    },
+    {
+      "label": "publisher",
+      "value": "[幽花堂]"
+    },
+    {
+      "label": "date",
+      "value": "Unknown"
+    },
+    {
+      "label": "size",
+      "value": "27.1×485.4cm"
+    }
+  ],
+  "attribution": "国際日本文化研究センター Nichibunken",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/BB10000294",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000294/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000294/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 1214,
+          "width": 21084,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000294/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/BB10000294/003668753_00.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1214,
+                "width": 21084,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/BB10000294/003668753_00.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10000294/1/canvas_1.json"
+            }
+          ]
+        }
+		
+      ]
+    }
+  ]
+}

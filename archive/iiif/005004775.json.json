@@ -1,0 +1,1123 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775.json",
+  "@type": "sc:Manifest",
+  "label": "日高川鐘巻道成寺縁起",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "005004775"
+    },
+    {
+      "label": "title",
+      "value": "日高川鐘巻道成寺縁起"
+    },
+    {
+      "label": "creator",
+      "value": "不明"
+    },
+    {
+      "label": "size",
+      "value": "27cm"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  ],
+  "attribution": "国際日本文化研究センター, International Research Center for Japanese Studies",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/BB10087453",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4233,
+          "width": 2940,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/001.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4233,
+                "width": 2940,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/001.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_1.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_2.json",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4247,
+          "width": 5883,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/2/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/002.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4247,
+                "width": 5883,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/002.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_2.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_3.json",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4207,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/3/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/003.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4207,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/003.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_3.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_4.json",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4215,
+          "width": 5875,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/4/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/004.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4215,
+                "width": 5875,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/004.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_4.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_5.json",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 4207,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/5/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/005.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4207,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/005.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_5.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_6.json",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 4191,
+          "width": 5867,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/6/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/006.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5867,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/006.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_6.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_7.json",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 4207,
+          "width": 5867,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/7/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/007.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4207,
+                "width": 5867,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/007.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_7.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_8.json",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 4199,
+          "width": 5859,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/8/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/008.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4199,
+                "width": 5859,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/008.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_8.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_9.json",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 4191,
+          "width": 5859,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/9/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/009.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5859,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/009.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_9.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_10.json",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 4200,
+          "width": 5855,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/10/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/010.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4200,
+                "width": 5855,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/010.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_10.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_11.json",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 4224,
+          "width": 5843,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/11/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/011.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4224,
+                "width": 5843,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/011.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_11.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_12.json",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 4191,
+          "width": 5859,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/12/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/012.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5859,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/012.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_12.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_13.json",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 4191,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/13/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/013.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/013.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_13.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_14.json",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 4191,
+          "width": 5867,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/14/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/014.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5867,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/014.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_14.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_15.json",
+          "@type": "sc:Canvas",
+          "label": "15",
+          "height": 4183,
+          "width": 5835,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/15/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/015.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4183,
+                "width": 5835,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/015.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_15.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_16.json",
+          "@type": "sc:Canvas",
+          "label": "16",
+          "height": 4199,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/16/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/016.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4199,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/016.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_16.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_17.json",
+          "@type": "sc:Canvas",
+          "label": "17",
+          "height": 4183,
+          "width": 5859,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/17/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/017.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4183,
+                "width": 5859,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/017.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_17.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_18.json",
+          "@type": "sc:Canvas",
+          "label": "18",
+          "height": 4183,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/18/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/018.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4183,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/018.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_18.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_19.json",
+          "@type": "sc:Canvas",
+          "label": "19",
+          "height": 4175,
+          "width": 5859,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/19/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/019.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4175,
+                "width": 5859,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/019.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_19.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_20.json",
+          "@type": "sc:Canvas",
+          "label": "20",
+          "height": 4175,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/20/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/020.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4175,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/020.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_20.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_21.json",
+          "@type": "sc:Canvas",
+          "label": "21",
+          "height": 4199,
+          "width": 5859,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/21/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/021.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4199,
+                "width": 5859,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/021.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_21.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_22.json",
+          "@type": "sc:Canvas",
+          "label": "22",
+          "height": 4175,
+          "width": 5843,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/22/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/022.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4175,
+                "width": 5843,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/022.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_22.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_23.json",
+          "@type": "sc:Canvas",
+          "label": "23",
+          "height": 4207,
+          "width": 5859,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/23/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/023.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4207,
+                "width": 5859,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/023.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_23.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_24.json",
+          "@type": "sc:Canvas",
+          "label": "24",
+          "height": 4216,
+          "width": 5860,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/24/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/024.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4216,
+                "width": 5860,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/024.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_24.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_25.json",
+          "@type": "sc:Canvas",
+          "label": "25",
+          "height": 4191,
+          "width": 5867,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/25/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/025.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5867,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/025.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_25.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_26.json",
+          "@type": "sc:Canvas",
+          "label": "26",
+          "height": 4191,
+          "width": 5859,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/26/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/026.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5859,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/026.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_26.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_27.json",
+          "@type": "sc:Canvas",
+          "label": "27",
+          "height": 4183,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/27/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/027.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4183,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/027.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_27.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_28.json",
+          "@type": "sc:Canvas",
+          "label": "28",
+          "height": 4191,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/28/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/028.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/028.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_28.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_29.json",
+          "@type": "sc:Canvas",
+          "label": "29",
+          "height": 4183,
+          "width": 5843,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/29/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/029.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4183,
+                "width": 5843,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/029.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_29.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_30.json",
+          "@type": "sc:Canvas",
+          "label": "30",
+          "height": 4191,
+          "width": 5843,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/30/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/030.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5843,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/030.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_30.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_31.json",
+          "@type": "sc:Canvas",
+          "label": "31",
+          "height": 4191,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/31/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/031.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/031.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_31.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_32.json",
+          "@type": "sc:Canvas",
+          "label": "32",
+          "height": 4199,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/32/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/032.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4199,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/032.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_32.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_33.json",
+          "@type": "sc:Canvas",
+          "label": "33",
+          "height": 4183,
+          "width": 5835,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/33/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/033.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4183,
+                "width": 5835,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/033.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_33.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_34.json",
+          "@type": "sc:Canvas",
+          "label": "34",
+          "height": 4191,
+          "width": 5843,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/34/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/034.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5843,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/034.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_34.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_35.json",
+          "@type": "sc:Canvas",
+          "label": "35",
+          "height": 4183,
+          "width": 5843,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/35/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/035.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4183,
+                "width": 5843,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/035.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_35.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_36.json",
+          "@type": "sc:Canvas",
+          "label": "36",
+          "height": 4175,
+          "width": 5843,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/36/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/036.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4175,
+                "width": 5843,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/036.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_36.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_37.json",
+          "@type": "sc:Canvas",
+          "label": "37",
+          "height": 4175,
+          "width": 5851,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/37/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/037.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4175,
+                "width": 5851,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/037.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_37.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_38.json",
+          "@type": "sc:Canvas",
+          "label": "38",
+          "height": 4191,
+          "width": 5819,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/38/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/038.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4191,
+                "width": 5819,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/038.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_38.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_39.json",
+          "@type": "sc:Canvas",
+          "label": "39",
+          "height": 4215,
+          "width": 5827,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/39/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/039.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4215,
+                "width": 5827,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/039.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_39.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_40.json",
+          "@type": "sc:Canvas",
+          "label": "40",
+          "height": 4225,
+          "width": 2908,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/40/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/040.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4225,
+                "width": 2908,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005004775/040.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005004775/1/canvas_40.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10103569.json",
+  "@type": "sc:Manifest",
+  "label": "百鬼晝行圖 Hyakki chūkōzu",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "BB10103569"
+    },
+    {
+      "label": "title",
+      "value": "百鬼晝行圖 Hyakki chūkōzu"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "label": "creator",
+      "value": "平福百穂 Hirafuku Hyakusui"
+    },
+    {
+      "label": "publisher",
+      "value": "Unknown"
+    },
+    {
+      "label": "date",
+      "value": "1934"
+    },
+    {
+      "label": "size",
+      "value": "15cm×343cm"
+    }
+  ],
+  "attribution": "国際日本文化研究センター Nichibunken",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/BB10103569",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10103569/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10103569/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 660,
+          "width": 15347,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10103569/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/BB10103569/005246459_00.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 660,
+                "width": 15347,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/BB10103569/005246459_00.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/BB10103569/1/canvas_1.json"
+            }
+          ]
+        }
+		
+      ]
+    }
+  ]
+}

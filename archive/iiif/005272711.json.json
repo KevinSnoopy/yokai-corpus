@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005272711.json",
+  "@type": "sc:Manifest",
+  "label": "昔ばなしの戯猫又年をへて古寺に怪をなす圖",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "005272711"
+    },
+    {
+      "label": "title",
+      "value": "昔ばなしの戯猫又年をへて古寺に怪をなす圖"
+    },
+    {
+      "label": "creator",
+      "value": "歌川国芳"
+    },
+    {
+      "label": "size",
+      "value": "37×26cm"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  ],
+  "attribution": "国際日本文化研究センター, International Research Center for Japanese Studies",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/BB10106160",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005272711/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005272711/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5736,
+          "width": 11840,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005272711/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005272711/005272711.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5736,
+                "width": 11840,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/FZK/005272711/005272711.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/FZK/005272711/1/canvas_1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

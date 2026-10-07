@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/TW92079185.json",
+  "@type": "sc:Manifest",
+  "label": "中納言長谷雄卿圖巻:全 Chūnagon haseo kyō zukan : zen",
+  "@description": "",
+  "@metadata": [
+    {
+      "label": "identifier",
+      "value": "TW92079185"
+    },
+    {
+      "label": "title",
+      "value": "中納言長谷雄卿圖巻:全 Chūnagon haseo kyō zukan : zen"
+    },
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "label": "creator",
+      "value": "[村田嘉言 Murata Yoshikoto]"
+    },
+    {
+      "label": "publisher",
+      "value": "[村田嘉言 Murata Yoshikoto]"
+    },
+    {
+      "label": "date",
+      "value": "弘化2 [1845]"
+    },
+    {
+      "label": "size",
+      "value": "39.1×1079.1cm"
+    }
+  ],
+  "attribution": "国際日本文化研究センター Nichibunken",
+  "seeAlso": "https://toshonin.nichibun.ac.jp/webopac/TW92079185",
+  "viewingDirection": "right-to-left",
+  "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "sequences": [
+    {
+      "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/TW92079185/sequence_1.json",
+      "@type": "sc:Sequence",
+      "label": "user0 sequence label",
+      "canvases": [
+
+        {
+          "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/TW92079185/1/canvas_1.json",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 1773,
+          "width": 45003,
+          "images": [
+            {
+              "@id": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/TW92079185/1/1/image_1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.nichibun.ac.jp/iipsrv/?IIIF=/EMK/TW92079185/003547163_00.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1773,
+                "width": 45003,
+                "service": {
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://iiif.nichibun.ac.jp/iipsrv?IIIF=/EMK/TW92079185/003547163_00.tif",
+                  "profile": "http://iiif.io/api/image/1/level1.json"
+                }
+              },
+              "on": "https://iiif.nichibun.ac.jp/IIIF/manifest/EMK/TW92079185/1/canvas_1.json"
+            }
+          ]
+        }
+		
+      ]
+    }
+  ]
+}
