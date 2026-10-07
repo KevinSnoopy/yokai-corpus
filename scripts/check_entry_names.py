@@ -17,6 +17,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 IDX = ROOT / "data" / "image_index.json"
 SAMP = ROOT / "data" / "yokai_sample.json"
+AUTH = ROOT / "data" / "yokai_authors.json"
 
 LEAD_KANA = re.compile(r"^([\u30a1-\u30f6ー]+)(.*)$")
 
@@ -46,7 +47,7 @@ def terms(text):
     return out
 
 
-def supported(name, pairs):
+def supported(name, pairs, description=""):
     kana, kanji = split_name(name)
     for tk, tr in pairs:
         if kanji and tk == kanji:
@@ -54,6 +55,21 @@ def supported(name, pairs):
         if kana and tr == kana:
             return True
         if not kanji and (tk == name or tr == name):
+            return True
+    # 纯假名条目没有汉字槽可依，只能拼接后比对。
+    # 两种顺序都试：条目的 name 约定是「读音＋汉字」，而 title 的槽序不保证同向
+    # （クタウバン；クトウバン 的 name 是 クトウバンクタウバン，读音在前）。
+    # 仅限无汉字名：kana 与 kana 的子串混淆（「シシ」之于「イノシシ」）只发生在跨实体比对时。
+    if not kanji:
+        for tk, tr in pairs:
+            for joined in (f"{tk}{tr}", f"{tr}{tk}"):
+                if name == joined or (name and name in joined):
+                    return True
+    # 卡片 title 可能是假名，汉字名只出现在内容記述里——那也是卡片自己的称呼
+    if description:
+        if kanji and kanji in description:
+            return True
+        if kana and kana in description:
             return True
     return False
 
@@ -72,6 +88,7 @@ def main():
 
     rows = json.loads(IDX.read_text(encoding="utf-8"))
     by_card = {s["card"]: s for s in json.loads(SAMP.read_text(encoding="utf-8"))}
+    descs = json.loads(AUTH.read_text(encoding="utf-8")) if AUTH.exists() else {}
 
     flagged = {}
     for r in rows:
@@ -79,7 +96,8 @@ def main():
         if not s:
             continue
         pairs = terms(s["title"]) | terms(s["subject"])
-        if not supported(r["yokai"], pairs):
+        desc = descs.get(r["card"], {}).get("description", "")
+        if not supported(r["yokai"], pairs, desc):
             flagged[r["card"]] = (r["yokai"], s["title"], s["subject"])
 
     print(f"条目 {len(rows)}  需人工判定的 {len(flagged)}")
