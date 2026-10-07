@@ -63,6 +63,7 @@ def render(d):
         "<body>",
         "",
         f"<h1>{e(d['タイトル'])}</h1>",
+        '<p><a href="index.html">← 图鉴索引</a></p>',
     ]
     if d["主題"] and d["主題"] != d["タイトル"]:
         out.append(f"<p>{e(d['主題'])}</p>")
