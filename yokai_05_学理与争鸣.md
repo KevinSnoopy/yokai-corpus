@@ -8,24 +8,6 @@ source_of_truth: local research/（ima 知识库「日本妖怪文化研究」�
 
 # 学理：理论谱系与争鸣
 
-<!-- profile:begin -->
-## ★ 本文件结论状态（自动生成，请勿手改）
-
-> 数据随 research 内容变化，与 `CONCLUSIONS_已确认结论.md` 同源判据（2026-10-04）。
-> 判断某条结论能否写进正文，一律查 `CONCLUSIONS_已确认结论.md`，不要以本摘要为准。
->
-> 本摘要统计**全文**标记（含 §9 真实专名清单与附录 A），故下列行号为文件真实行号。
-
-| 项 | 值 |
-|---|---|
-| A 级标记 | 10 处 |
-| 存级标记（不可使用） | 1 处 |
-| 小节数 | 8 |
-| 含「未取得／未审计」行 | 1 行 |
-| fact_bank 锚点引用本文件 | 0 条 |
-
-全库 1 处存级标记的集中索引见 `PENDING_待验证与禁用清单.md`。
-<!-- profile:end -->
 > **置信度分级（全集统一）**
 > - `【A】` = 直接打开官方页面读到原文，或数据库逐件已核实。
 > - `【B】` = 单一可靠来源（日文维基条目、出版社书介），未回到原始页。
@@ -186,23 +168,8 @@ source_of_truth: local research/（ima 知识库「日本妖怪文化研究」�
 ---
 
 ## 出处
-**维基百科（Browser 实读）**
-- 中文 `Category:日本妖怪`：【快照 `pages/f08dbb46dff0.html`】
-- 中文 `Category:妖怪`：【快照 `pages/c23e709007f6.html`】
-- 日文『妖怪談義』：【快照 `pages/65a7bfb5ce9a.html`】
-- 日文『妖怪』：【快照 `pages/2ef4c1b4bd60.html`】
-- 日文『柳田國男』：【快照 `pages/62025d8d8518.html`】
-- 英文 Kaii-Yōkai Denshō Database：【快照 `pages/c340bd5eced0.html`】
-**国会図書館 NDL**
+通用来源见 《yokai_00_读法与判据》 出处清单。
 - 『日本の妖怪百科：ビジュアル版』2015.5：
   【快照 `pages/bca959cb211a.html`】
   （含「出没箇所ごとに山、水、里、屋敷に分けて」决定性原文）
-**数据库目录与其它（WebSearch 命中）**
-- nccjapan 画像库资源页：【快照 `pages/3f420715d6ee.html`】
-- YOKAI.JP 妖怪図鑑：【快照 `pages/b1832cf392dd.html`】
 - CiNii 图书（湯本豪一编）：【本机 TLS 不可达，见 index.json】
-- NDL Search：【快照 `pages/7e9faa0e556c.html`】
-- 中文学术综述（长野荣俊等《国际社会科学杂志》2022 年第 4 期）：
-  【快照 `pages/a32e01380c3a.html`】
-- 妖怪学访谈（ミツカン水の文化センター）：【快照 `pages/3801e13f1017.html`】
-- 付费丧神说明：【快照 `pages/a383a8b4ad85.html`】
